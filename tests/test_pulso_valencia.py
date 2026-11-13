@@ -98,7 +98,7 @@ class PageTests(unittest.TestCase):
         from scripts import pulso_reutilizar as pr
         page = pr.render(self.csv)
         rows = pr.catalog(self.csv.encode('utf-8'))
-        self.assertEqual(len(rows), 6)
+        self.assertEqual(len(rows), 7)  # 5 de Madrid, Castilla y León y València
         for *_, cols in rows:
             for col in cols:
                 self.assertIn(f'<code>{col}</code>', page)

@@ -47,6 +47,11 @@ COLUMNS = {
     'anio_completo': '«sí» si ese año trae todos los distritos; «no» si está incompleto y no debe compararse.',
     'vulnerabilidad_global_2021': 'Nivel de vulnerabilidad global del barrio en 2021 (Alta, Media o Baja; vacío en pedanías).',
     'area_barrio_km2': 'Superficie del barrio en km² (capa de vulnerabilidad; vacío en pedanías).',
+    'codigo_ine': 'Código del municipio en el INE (5 cifras).', 'municipio': 'Municipio (nombre del INE).', 'provincia': 'Provincia.',
+    'habitantes': 'Población oficial del INE a 1 de enero del año indicado en anio_padron.',
+    'bares': 'Inscripciones de tipo «Bares» en el Registro de Turismo.', 'restaurantes': 'Inscripciones de tipo «Restaurantes».',
+    'cafeterias': 'Inscripciones de tipo «Cafeterías».', 'fecha_registro': 'Fecha de descarga del Registro de Turismo.',
+    'anio_padron': 'Año de las cifras de población del INE.',
 }
 
 
@@ -65,6 +70,10 @@ def catalog(valencia_csv):
         ('Madrid', 'pulso-muestra.csv', 'Cada cambio entre los dos últimos cortes del censo, con su estado antes y después.'),
     ]
     rows = [(city, name, MADRID + name, text, headers(madrid[name])) for city, name, text in items if name in madrid]
+    cyl = ROOT / 'sites' / 'paniset-github-io' / 'site' / 'pulso-castilla-y-leon' / 'hosteleria-municipios-castilla-y-leon.csv'
+    if cyl.exists():
+        rows.append(('Castilla y León', cyl.name, 'https://paniset.github.io/pulso-castilla-y-leon/' + cyl.name,
+                     'Bares, restaurantes y cafeterías del Registro de Turismo y habitantes, para los 2.248 municipios.', headers(cyl.read_bytes())))
     rows.append(('València', 'recibos-terrazas-valencia.csv', VALENCIA + 'recibos-terrazas-valencia.csv',
                  'Recibos de la tasa de terrazas por barrio y año, con importe, código, vulnerabilidad y superficie del barrio.',
                  headers(valencia_csv)))
@@ -81,10 +90,10 @@ def render(valencia_csv):
         items = ''.join(f'<li><code>{escape(c)}</code>: {escape(COLUMNS[c])}</li>' for c in cols)
         blocks.append(f'<h3>{escape(city)}: <a href="{escape(url)}">{escape(name)}</a></h3><p>{escape(text)}</p>'
                       f'<details><summary>Columnas ({len(cols)})</summary><ul>{items}</ul></details>')
-    title = 'Cómo reutilizar los datos de terrazas de Madrid y València (CSV, licencia y ejemplos) | Pulso'
-    description = ('Guía para descargar y reutilizar los CSV de Pulso sobre terrazas de Madrid y València: columnas, licencia CC BY 4.0, '
+    title = 'Cómo reutilizar los datos de Pulso: terrazas de Madrid y València y hostelería de Castilla y León (CSV) | Pulso'
+    description = ('Guía para descargar y reutilizar los CSV de Pulso sobre terrazas de Madrid y València y hostelería de Castilla y León: columnas, licencia CC BY 4.0, '
                    'cómo citar la fuente y ejemplos para hoja de cálculo y Python.')
-    article = {'@context': 'https://schema.org', '@type': 'TechArticle', 'headline': 'Cómo reutilizar los datos de terrazas de Madrid y València',
+    article = {'@context': 'https://schema.org', '@type': 'TechArticle', 'headline': 'Cómo reutilizar los datos de Pulso: terrazas de Madrid y València y hostelería de Castilla y León',
                'dateModified': '2026-11-13', 'inLanguage': 'es', 'mainEntityOfPage': URL,
                'author': {'@type': 'Organization', 'name': 'Pulso Local'}, 'license': LICENSE_DEED}
     example = '''import csv, io, urllib.request
@@ -99,12 +108,13 @@ for f in filas:
     if f["anio"] == "2025" and f["anio_completo"] == "sí":
         totales[f["distrito"]] = totales.get(f["distrito"], 0) + int(f["recibos"])
 print(sorted(totales.items(), key=lambda par: -par[1])[:5])'''
-    attribution = ('Fuente: Ajuntament de València («Recibos mesas y sillas 2020-2025»; «Vulnerabilidad por barrios 2021») y '
-                   'Ayuntamiento de Madrid (censo de locales y terrazas; padrón por distrito y barrio), CC BY 4.0. Elaboración: Pulso Local.')
+    attribution = ('Fuente: Ajuntament de València («Recibos mesas y sillas 2020-2025»; «Vulnerabilidad por barrios 2021»), '
+                   'Ayuntamiento de Madrid (censo de locales y terrazas; padrón por distrito y barrio) y Junta de Castilla y León '
+                   '(Registro de Turismo), CC BY 4.0; población municipal de Castilla y León: INE. Elaboración: Pulso Local.')
     page = f'''<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{escape(title)}</title><meta name="description" content="{escape(description)}"><link rel="stylesheet" href="style.css"><link rel="icon" href="data:,">
 <script type="application/ld+json">{ld_json(article)}</script></head><body><main><header><nav aria-label="Ruta"><p><a href="../">Herramientas gratuitas</a> / <a href="./">Pulso València</a> / Reutilizar los datos</p></nav>
-<h1>Cómo reutilizar los datos de terrazas de Madrid y València</h1>
+<h1>Cómo reutilizar los datos de Pulso: Madrid, València y Castilla y León</h1>
 <p class="lead">CSV gratuitos, con licencia CC BY 4.0 y código abierto. Actualizado el 13 de noviembre de 2026.</p></header>
 <h2>Qué puedes hacer</h2>
 <p>Puedes descargar, copiar, publicar, combinar y usar estos datos con cualquier fin, también comercial, siempre que cites la fuente. Sirven para periodismo, trabajos de clase, estudios de asociaciones vecinales o análisis propios. Los cálculos se pueden comprobar en el <a href="{REPO}">código abierto</a>.</p>
