@@ -107,7 +107,8 @@ def parse(raw):
             year_data['mismatch_max'] = max(year_data.get('mismatch_max', 0), abs(fisica + juridica + sin - total))
         if key in year_data['barrios']:
             raise ValueError(f'Barrio repetido en {year}: {key}')
-        year_data['barrios'][key] = {'recibos': total, 'importe': round(amount(row['Importe recibos totales']), 2)}
+        year_data['barrios'][key] = {'recibos': total, 'importe': round(amount(row['Importe recibos totales']), 2),
+                                     'codigo': barrio_code(row['Codigo Distrito'], row['Codigo Barrio'])}
         d = year_data['districts'].setdefault(district, {'recibos': 0, 'fisica': 0, 'juridica': 0, 'sin': 0, 'importe': 0.0})
         d['recibos'] += total; d['fisica'] += fisica; d['juridica'] += juridica; d['sin'] += sin
         d['importe'] += amount(row['Importe recibos totales'])
@@ -123,20 +124,67 @@ def parse(raw):
     return result
 
 
+def barrio_code(district, barrio):
+    """Código del barrio como en «Vulnerabilidad por barrios» (Codbar): distrito + barrio sin ceros («03»,«4» -> «34»)."""
+    d, b = district.strip(), barrio.strip()
+    if not (d.isdecimal() and b.isdecimal()) or not 1 <= int(b) <= 9:
+        raise ValueError(f'Código de barrio inesperado: {district!r}, {barrio!r}')
+    return f'{int(d)}{int(b)}'
+
+
+# Segundo conjunto del portal: índice de vulnerabilidad por barrio (2021) y superficie del barrio.
+VULN_DATASET = 'https://opendata.vlci.valencia.es/dataset/vulnerabilidad-por-barrios'
+VULN_URL = ('https://opendata.vlci.valencia.es/dataset/ca18278b-d040-4274-b9c7-c1a9daae54b9/resource/'
+            '6648d1d5-4d35-410d-8260-432069045334/download/vulnerabilidad-por-barrios.csv')
+VULN_SHA256 = '73676b5bbe83dfa3ca123c802ae73a16d1ca6d959c6d9d273eccd976515a2057'
+VULN_BYTES = 156253
+LEVELS = ('Alta', 'Media', 'Baja')
+
+
+def parse_vulnerability(raw):
+    csv.field_size_limit(10_000_000)
+    reader = csv.DictReader(io.StringIO(raw.decode('utf-8-sig'), newline=''), delimiter=';')
+    if not {'Nombre', 'Codbar', 'Distrito', 'Vul_Global', 'Ind_Global', 'Shape_Area'} <= set(reader.fieldnames or []):
+        raise ValueError('Esquema de vulnerabilidad incompatible')
+    barrios = {}
+    for line, row in enumerate(reader, 2):
+        code = row['Codbar'].strip()
+        level = row['Vul_Global'].strip().replace('Vulnerabilidad ', '')
+        area = float(row['Shape_Area'])
+        if not code.isdecimal() or code in barrios or level not in LEVELS or not 0 < area < 1e8:
+            raise ValueError(f'Fila de vulnerabilidad inválida: {line}')
+        barrios[code] = {'nombre': ' '.join(row['Nombre'].split()), 'nivel': level,
+                         'indice': float(row['Ind_Global']), 'area_m2': round(area)}
+    return dict(sorted(barrios.items(), key=lambda kv: int(kv[0])))
+
+
+def sources():
+    return {'dataset': DATASET, 'url': URL, 'sha256': RAW_SHA256, 'bytes': RAW_BYTES, 'license': 'CC BY 4.0'}
+
+
+def vuln_source():
+    return {'dataset': VULN_DATASET, 'url': VULN_URL, 'sha256': VULN_SHA256, 'bytes': VULN_BYTES, 'license': 'CC BY 4.0', 'year': 2021}
+
+
 def download():
     raw = fetch(URL)
     if len(raw) != RAW_BYTES or hashlib.sha256(raw).hexdigest() != RAW_SHA256:
         raise ValueError('El CSV de recibos ha cambiado: revisa los datos y actualiza el hash fijado')
-    data = {'source': {'dataset': DATASET, 'url': URL, 'sha256': RAW_SHA256, 'bytes': RAW_BYTES, 'license': 'CC BY 4.0'},
-            'years': parse(raw)}
+    vraw = fetch(VULN_URL)
+    if len(vraw) != VULN_BYTES or hashlib.sha256(vraw).hexdigest() != VULN_SHA256:
+        raise ValueError('El CSV de vulnerabilidad ha cambiado: revisa los datos y actualiza el hash fijado')
+    data = {'source': sources(), 'years': parse(raw),
+            'vulnerabilidad': {'source': vuln_source(), 'barrios': parse_vulnerability(vraw)}}
     atomic_write(DATA, json.dumps(data, ensure_ascii=False, indent=1) + '\n')
     return data
 
 
 def load(path=DATA):
     data = json.loads(Path(path).read_text(encoding='utf-8'))
-    if data['source'] != {'dataset': DATASET, 'url': URL, 'sha256': RAW_SHA256, 'bytes': RAW_BYTES, 'license': 'CC BY 4.0'}:
+    if data['source'] != sources():
         raise ValueError('Procedencia distinta de la fijada')
+    if 'vulnerabilidad' in data and data['vulnerabilidad']['source'] != vuln_source():
+        raise ValueError('Procedencia de vulnerabilidad distinta de la fijada')
     for year, value in data['years'].items():
         for name, d in value['districts'].items():
             if sum(b['recibos'] for k, b in value['barrios'].items() if k.split('|')[0] == name) != d['recibos']:
@@ -169,6 +217,10 @@ def share(d):
     """Porcentaje de recibos de personas jurídicas sobre el desglose por titular (no sobre el total)."""
     breakdown = d['fisica'] + d['juridica'] + d['sin']
     return es_number(100 * d['juridica'] / breakdown, 0) if breakdown else '—'
+
+
+def plural_barrios(n):
+    return '1 barrio' if n == 1 else f'{n} barrios'
 
 
 def barrio_amount(entry):
@@ -222,11 +274,47 @@ def render(data):
               + f'<td>{signed(tot(last) - tot(prev))}</td><td>{euros(imp(last))}</td>'
               f'<td>{share({k: sum(d[k] for d in L["districts"].values()) for k in ("fisica", "juridica", "sin")})} %</td></tr></tfoot>')
     barrio_keys = sorted(set(L['barrios']) | set(P['barrios']), key=lambda k: (k.split('|')[0], k.split('|')[1]))
+    V = (data.get('vulnerabilidad') or {}).get('barrios') or {}
+    code_of = {k: (L['barrios'].get(k) or P['barrios'].get(k) or {}).get('codigo') for k in barrio_keys}
+
+    def vuln_cells(k):
+        if not V:
+            return ''
+        v = V.get(code_of[k])
+        if not v:
+            return '<td>—</td><td>Sin índice</td>'
+        return f'<td>{es_number(L["barrios"].get(k, {}).get("recibos", 0) / (v["area_m2"] / 1e6))}</td><td>{v["nivel"]}</td>'
     b_rows = ''.join(
         f'<tr><th scope="row">{escape(nice(k.split("|")[1]))}</th><td>{escape(nice(k.split("|")[0]))}</td>'
         f'<td>{es_int(P["barrios"].get(k, {}).get("recibos", 0))}</td><td>{es_int(L["barrios"].get(k, {}).get("recibos", 0))}</td>'
         f'<td>{signed(L["barrios"].get(k, {}).get("recibos", 0) - P["barrios"].get(k, {}).get("recibos", 0))}</td>'
-        f'<td>{barrio_amount(L["barrios"].get(k))}</td></tr>' for k in barrio_keys)
+        f'<td>{barrio_amount(L["barrios"].get(k))}</td>{vuln_cells(k)}</tr>' for k in barrio_keys)
+    vuln_section = ''
+    if V:
+        by_level = {lvl: {'barrios': 0, 'recibos': 0, 'area': 0} for lvl in LEVELS}
+        recibos_by_code = {b['codigo']: b['recibos'] for b in L['barrios'].values()}
+        for code, v in V.items():
+            item = by_level[v['nivel']]
+            item['barrios'] += 1; item['area'] += v['area_m2']; item['recibos'] += recibos_by_code.get(code, 0)
+        covered = sum(i['recibos'] for i in by_level.values())
+        outside = [k for k in L['barrios'] if L['barrios'][k]['codigo'] not in V]
+        rows_v = ''.join(f'<tr><th scope="row">{lvl}</th><td>{i["barrios"]}</td><td>{es_int(i["recibos"])}</td>'
+                         f'<td>{es_number(100 * i["recibos"] / covered, 0)} %</td><td>{es_number(i["area"] / 1e6, 1)}</td>'
+                         f'<td>{es_number(i["recibos"] / (i["area"] / 1e6))}</td></tr>' for lvl, i in by_level.items())
+        dens = {lvl: i['recibos'] / (i['area'] / 1e6) for lvl, i in by_level.items()}
+        hi, lo = max(dens, key=dens.get), min(dens, key=dens.get)
+        vuln_section = (
+            f'<h2>Recibos por km² y vulnerabilidad del barrio</h2>'
+            f'<p>Cruce con un segundo conjunto del portal: el índice de vulnerabilidad global de cada barrio en 2021 (equipamientos, demografía y socioeconomía) y su superficie. '
+            f'Cubre {len(V)} barrios; {plural_barrios(len(outside))} de las pedanías no tienen índice y quedan fuera de esta tabla '
+            f'({es_int(sum(L["barrios"][k]["recibos"] for k in outside))} recibos en {last}).</p>'
+            f'<div class="table-wrap"><table><caption>Recibos de {last} por nivel de vulnerabilidad global del barrio (índice de 2021)</caption>'
+            f'<thead><tr><th scope="col">Vulnerabilidad</th><th scope="col">Barrios</th><th scope="col">Recibos {last}</th><th scope="col">% de recibos</th>'
+            f'<th scope="col">km²</th><th scope="col">Recibos por km²</th></tr></thead><tbody>{rows_v}</tbody></table></div>'
+            f'<p>Los {by_level["Baja"]["barrios"]} barrios de vulnerabilidad baja reúnen el {es_number(100 * by_level["Baja"]["recibos"] / covered, 0)} % de los recibos de estos barrios. '
+            f'Por superficie, los de vulnerabilidad {hi.lower()} tienen {es_number(dens[hi])} recibos por km², frente a {es_number(dens[lo])} en los de vulnerabilidad {lo.lower()}.</p>'
+            '<p class="small">Es una descripción, no una relación de causa: el índice es de 2021 y resume muchos factores, y la superficie es la de todo el barrio, '
+            'incluidas zonas sin uso hostelero. Sirve para situar dónde se concentran las terrazas, no para explicar por qué.</p>')
     top_b = sorted(L['barrios'].items(), key=lambda kv: (-kv[1]['recibos'], kv[0]))[:10]
     change = {k: L['barrios'].get(k, {}).get('recibos', 0) - P['barrios'].get(k, {}).get('recibos', 0) for k in barrio_keys}
     up = max(barrio_keys, key=lambda k: (change[k], k)); down = min(barrio_keys, key=lambda k: (change[k], k))
@@ -243,9 +331,10 @@ def render(data):
         obs.append(f'El que más baja es {nice(down.split("|")[1])} ({signed(change[down])}).')
     title = f'Terrazas en València por barrio y distrito: recibos de la tasa {first}-{last} | Pulso València'
     description = (f'Recibos de la tasa de mesas y sillas (terrazas) en València por distrito y barrio: {es_int(tot(last))} en {last}, '
-                   f'{euros(imp(last))}, y su evolución desde {first}. Datos abiertos del Ajuntament de València.')
+                   f'{euros(imp(last))}, su evolución desde {first} y los recibos por km² según la vulnerabilidad del barrio. Datos abiertos del Ajuntament de València.')
     dataset = {'@context': 'https://schema.org', '@type': 'Dataset', 'name': f'Recibos de la tasa de terrazas en València por barrio ({first}-{last})',
-               'description': description, 'url': ORIGIN, 'license': LICENSE_DEED, 'isBasedOn': DATASET,
+               'description': description, 'url': ORIGIN, 'license': LICENSE_DEED,
+               'isBasedOn': [DATASET, VULN_DATASET] if V else DATASET,
                'temporalCoverage': f'{first}/{last}', 'spatialCoverage': 'València',
                'creator': {'@type': 'Organization', 'name': 'Pulso Local', 'url': 'https://paniset.github.io/'},
                'distribution': {'@type': 'DataDownload', 'encodingFormat': 'text/csv', 'contentUrl': ORIGIN + CSV_NAME}}
@@ -273,13 +362,14 @@ def render(data):
 <h2>Barrios con más recibos en {last}</h2><ol>{''.join(f'<li>{escape(nice(k.split("|")[1]))} ({escape(nice(k.split("|")[0]))}): {es_int(v["recibos"])}</li>' for k, v in top_b)}</ol>
 <h2>Todos los barrios</h2>
 <div class="table-wrap"><table><caption>Recibos por barrio en {prev} y {last}, variación e importe en {last}, ordenados por distrito</caption>
-<thead><tr><th scope="col">Barrio</th><th scope="col">Distrito</th><th scope="col">{prev}</th><th scope="col">{last}</th><th scope="col">Variación</th><th scope="col">Importe {last}</th></tr></thead>
+<thead><tr><th scope="col">Barrio</th><th scope="col">Distrito</th><th scope="col">{prev}</th><th scope="col">{last}</th><th scope="col">Variación</th><th scope="col">Importe {last}</th>{'<th scope="col">Recibos/km²</th><th scope="col">Vulnerabilidad 2021</th>' if V else ''}</tr></thead>
 <tbody>{b_rows}</tbody></table></div>
+{vuln_section}
 <h2>Cómo leer estos datos</h2>
 <p>Cada fila del conjunto municipal da, por barrio y año, el número de recibos emitidos de la tasa por mesas y sillas y su importe. El importe es lo facturado en recibos, no lo cobrado. El reparto por tipo de titular (persona física, jurídica o sin personalidad) se muestra solo por distrito.</p>
 {mismatch_note}<p>En barrios con menos de {MIN_AMOUNT_RECEIPTS} recibos no se muestra el importe (—), porque se acercaría al de un solo titular.</p><p>Un barrio que no aparece en un año se cuenta con 0 recibos. La variación entre años puede deberse a altas y bajas de licencias, a cambios en la tasa o a correcciones administrativas. Esta página no interpreta la ordenanza municipal.</p>
 <p><a href="{CSV_NAME}">Descargar los datos por barrio y año en CSV</a> · <a href="https://paniset.github.io/pulso-local-madrid/">Pulso Local Madrid: el registro de terrazas de Madrid</a></p>
-<h2>Procedencia y licencia</h2><p>Ajuntament de València, <a href="{DATASET}">Recibos mesas y sillas 2020 - 2025</a>, portal de datos abiertos, licencia <a href="{LICENSE_DEED}">CC BY 4.0</a>. Fichero fijado por su huella SHA-256 ({RAW_SHA256[:12]}…). Solo se publican agregados.</p>
+<h2>Procedencia y licencia</h2><p>Ajuntament de València, <a href="{DATASET}">Recibos mesas y sillas 2020 - 2025</a>, portal de datos abiertos, licencia <a href="{LICENSE_DEED}">CC BY 4.0</a>. Fichero fijado por su huella SHA-256 ({RAW_SHA256[:12]}…).{f' Vulnerabilidad y superficie: <a href="{VULN_DATASET}">Vulnerabilidad por barrios 2021</a>, licencia CC BY 4.0 (huella {VULN_SHA256[:12]}…).' if V else ''} Solo se publican agregados.</p>
 <footer><p><a href="../">Todas las herramientas</a> · <a href="../acerca">Acerca de</a> · <a href="https://github.com/paniset/pulso-datos-abiertos">Código abierto (MIT) en GitHub</a></p></footer></main></body></html>'''
     page = page_metadata(page, canonical=ORIGIN, social=True)
     return protect_html(page)
@@ -288,13 +378,17 @@ def render(data):
 def render_csv(data):
     stream = io.StringIO(newline='')
     writer = csv.writer(stream, delimiter=';', lineterminator='\r\n')
-    writer.writerow(['anio', 'distrito', 'barrio', 'recibos', 'importe_eur', 'anio_completo', 'fuente', 'licencia'])
+    V = (data.get('vulnerabilidad') or {}).get('barrios') or {}
+    writer.writerow(['anio', 'distrito', 'barrio', 'codigo_barrio', 'recibos', 'importe_eur', 'anio_completo',
+                     'vulnerabilidad_global_2021', 'area_barrio_km2', 'fuente', 'licencia'])
     for year, value in data['years'].items():
         for key, b in value['barrios'].items():
             district, barrio = key.split('|')
             amount_text = f'{b["importe"]:.2f}'.replace('.', ',') if b['recibos'] >= MIN_AMOUNT_RECEIPTS else ''
-            writer.writerow([csv_safe(v) for v in (year, nice(district), nice(barrio), b['recibos'], amount_text,
-                                                   'sí' if value['complete'] else 'no', DATASET, 'CC BY 4.0')])
+            v = V.get(b.get('codigo'), {})
+            writer.writerow([csv_safe(x) for x in (year, nice(district), nice(barrio), b.get('codigo', ''), b['recibos'], amount_text,
+                                                   'sí' if value['complete'] else 'no', v.get('nivel', ''),
+                                                   es_number(v['area_m2'] / 1e6, 3) if v else '', DATASET, 'CC BY 4.0')])
     return '﻿' + stream.getvalue()
 
 

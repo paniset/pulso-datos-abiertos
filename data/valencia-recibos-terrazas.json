@@ -149,351 +149,438 @@
    "barrios": {
     "ALGIROS|CIUTAT JARDI": {
      "recibos": 141,
-     "importe": 117882.4
+     "importe": 117882.4,
+     "codigo": "132"
     },
     "ALGIROS|L'AMISTAT": {
      "recibos": 46,
-     "importe": 31084.02
+     "importe": 31084.02,
+     "codigo": "133"
     },
     "ALGIROS|L'ILLA PERDUDA": {
      "recibos": 37,
-     "importe": 22420.12
+     "importe": 22420.12,
+     "codigo": "131"
     },
     "ALGIROS|LA CARRASCA": {
      "recibos": 19,
-     "importe": 16468.18
+     "importe": 16468.18,
+     "codigo": "135"
     },
     "ALGIROS|LA VEGA BAIXA": {
      "recibos": 70,
-     "importe": 38995.06
+     "importe": 38995.06,
+     "codigo": "134"
     },
     "BENICALAP|BENICALAP": {
      "recibos": 135,
-     "importe": 111045.45
+     "importe": 111045.45,
+     "codigo": "161"
     },
     "BENICALAP|CIUTAT FALLERA": {
      "recibos": 8,
-     "importe": 6595.73
+     "importe": 6595.73,
+     "codigo": "162"
     },
     "BENIMACLET|BENIMACLET": {
      "recibos": 121,
-     "importe": 86378.92
+     "importe": 86378.92,
+     "codigo": "141"
     },
     "BENIMACLET|CAMI DE VERA": {
      "recibos": 15,
-     "importe": 9523.05
+     "importe": 9523.05,
+     "codigo": "142"
     },
     "CAMINS AL GRAU|AIORA": {
      "recibos": 61,
-     "importe": 33178.75
+     "importe": 33178.75,
+     "codigo": "121"
     },
     "CAMINS AL GRAU|ALBORS": {
      "recibos": 32,
-     "importe": 20072.16
+     "importe": 20072.16,
+     "codigo": "122"
     },
     "CAMINS AL GRAU|CAMI FONDO": {
      "recibos": 16,
-     "importe": 7061.08
+     "importe": 7061.08,
+     "codigo": "124"
     },
     "CAMINS AL GRAU|LA CREU DEL GRAU": {
      "recibos": 46,
-     "importe": 28631.15
+     "importe": 28631.15,
+     "codigo": "123"
     },
     "CAMINS AL GRAU|PENYA-ROJA": {
      "recibos": 88,
-     "importe": 156047.6
+     "importe": 156047.6,
+     "codigo": "125"
     },
     "CAMPANAR|CAMPANAR": {
      "recibos": 60,
-     "importe": 51763.84
+     "importe": 51763.84,
+     "codigo": "41"
     },
     "CAMPANAR|EL CALVARI": {
      "recibos": 27,
-     "importe": 11444.78
+     "importe": 11444.78,
+     "codigo": "43"
     },
     "CAMPANAR|LES TENDETES": {
      "recibos": 17,
-     "importe": 12285.66
+     "importe": 12285.66,
+     "codigo": "42"
     },
     "CAMPANAR|SANT PAU": {
      "recibos": 52,
-     "importe": 51278.67
+     "importe": 51278.67,
+     "codigo": "44"
     },
     "CIUTAT VELLA|EL CARME": {
      "recibos": 65,
-     "importe": 26866.55
+     "importe": 26866.55,
+     "codigo": "13"
     },
     "CIUTAT VELLA|EL MERCAT": {
      "recibos": 77,
-     "importe": 54101.2
+     "importe": 54101.2,
+     "codigo": "15"
     },
     "CIUTAT VELLA|EL PILAR": {
      "recibos": 28,
-     "importe": 15715.81
+     "importe": 15715.81,
+     "codigo": "14"
     },
     "CIUTAT VELLA|LA SEU": {
      "recibos": 91,
-     "importe": 90482.68
+     "importe": 90482.68,
+     "codigo": "11"
     },
     "CIUTAT VELLA|LA XEREA": {
      "recibos": 47,
-     "importe": 42521.14
+     "importe": 42521.14,
+     "codigo": "12"
     },
     "CIUTAT VELLA|SANT FRANCESC": {
      "recibos": 163,
-     "importe": 191493.43
+     "importe": 191493.43,
+     "codigo": "16"
     },
     "EL PLA DEL REAL|CIUTAT UNIVERSITARIA": {
      "recibos": 18,
-     "importe": 12924.78
+     "importe": 12924.78,
+     "codigo": "64"
     },
     "EL PLA DEL REAL|EXPOSICIO": {
      "recibos": 54,
-     "importe": 52646.02
+     "importe": 52646.02,
+     "codigo": "61"
     },
     "EL PLA DEL REAL|JAUME ROIG": {
      "recibos": 20,
-     "importe": 14796.15
+     "importe": 14796.15,
+     "codigo": "63"
     },
     "EL PLA DEL REAL|MESTALLA": {
      "recibos": 130,
-     "importe": 120529.1
+     "importe": 120529.1,
+     "codigo": "62"
     },
     "EXTRAMURS|ARRANCAPINS": {
      "recibos": 156,
-     "importe": 82165.22
+     "importe": 82165.22,
+     "codigo": "34"
     },
     "EXTRAMURS|EL BOTANIC": {
      "recibos": 25,
-     "importe": 11227.63
+     "importe": 11227.63,
+     "codigo": "31"
     },
     "EXTRAMURS|LA PETXINA": {
      "recibos": 76,
-     "importe": 33565.15
+     "importe": 33565.15,
+     "codigo": "33"
     },
     "EXTRAMURS|LA ROQUETA": {
      "recibos": 36,
-     "importe": 18333.1
+     "importe": 18333.1,
+     "codigo": "32"
     },
     "JESUS|CAMI REAL": {
      "recibos": 4,
-     "importe": 1905.0
+     "importe": 1905.0,
+     "codigo": "95"
     },
     "JESUS|L'HORT DE SENABRE": {
      "recibos": 67,
-     "importe": 36554.44
+     "importe": 36554.44,
+     "codigo": "92"
     },
     "JESUS|LA CREU COBERTA": {
      "recibos": 17,
-     "importe": 9296.71
+     "importe": 9296.71,
+     "codigo": "93"
     },
     "JESUS|LA RAIOSA": {
      "recibos": 37,
-     "importe": 16310.81
+     "importe": 16310.81,
+     "codigo": "91"
     },
     "JESUS|SANT MARCEL.LI": {
      "recibos": 22,
-     "importe": 12951.93
+     "importe": 12951.93,
+     "codigo": "94"
     },
     "L'EIXAMPLE|EL PLA DEL REMEI": {
      "recibos": 51,
-     "importe": 48693.39
+     "importe": 48693.39,
+     "codigo": "22"
     },
     "L'EIXAMPLE|GRAN VIA": {
      "recibos": 204,
-     "importe": 120149.06
+     "importe": 120149.06,
+     "codigo": "23"
     },
     "L'EIXAMPLE|RUSSAFA": {
      "recibos": 246,
-     "importe": 104908.17
+     "importe": 104908.17,
+     "codigo": "21"
     },
     "L'OLIVERETA|LA FONTSANTA": {
      "recibos": 14,
-     "importe": 11852.12
+     "importe": 11852.12,
+     "codigo": "74"
     },
     "L'OLIVERETA|LA LLUM": {
      "recibos": 20,
-     "importe": 12352.96
+     "importe": 12352.96,
+     "codigo": "75"
     },
     "L'OLIVERETA|NOU MOLES": {
      "recibos": 66,
-     "importe": 36609.31
+     "importe": 36609.31,
+     "codigo": "71"
     },
     "L'OLIVERETA|SOTERNES": {
      "recibos": 19,
-     "importe": 14973.69
+     "importe": 14973.69,
+     "codigo": "72"
     },
     "L'OLIVERETA|TRES FORQUES": {
      "recibos": 10,
-     "importe": 6856.15
+     "importe": 6856.15,
+     "codigo": "73"
     },
     "LA SAIDIA|MARXALENES": {
      "recibos": 45,
-     "importe": 29493.8
+     "importe": 29493.8,
+     "codigo": "51"
     },
     "LA SAIDIA|MORVEDRE": {
      "recibos": 33,
-     "importe": 16119.7
+     "importe": 16119.7,
+     "codigo": "52"
     },
     "LA SAIDIA|SANT ANTONI": {
      "recibos": 31,
-     "importe": 19949.01
+     "importe": 19949.01,
+     "codigo": "55"
     },
     "LA SAIDIA|TORMOS": {
      "recibos": 22,
-     "importe": 10210.13
+     "importe": 10210.13,
+     "codigo": "54"
     },
     "LA SAIDIA|TRINITAT": {
      "recibos": 52,
-     "importe": 34451.63
+     "importe": 34451.63,
+     "codigo": "53"
     },
     "PATRAIX|FAVARA": {
      "recibos": 19,
-     "importe": 7777.02
+     "importe": 7777.02,
+     "codigo": "85"
     },
     "PATRAIX|PATRAIX": {
      "recibos": 89,
-     "importe": 46547.92
+     "importe": 46547.92,
+     "codigo": "81"
     },
     "PATRAIX|SAFRANAR": {
      "recibos": 22,
-     "importe": 14657.77
+     "importe": 14657.77,
+     "codigo": "84"
     },
     "PATRAIX|SANT ISIDRE": {
      "recibos": 29,
-     "importe": 15957.5
+     "importe": 15957.5,
+     "codigo": "82"
     },
     "PATRAIX|VARA DE QUART": {
      "recibos": 52,
-     "importe": 33125.5
+     "importe": 33125.5,
+     "codigo": "83"
     },
     "POBLATS MARITIMS|BETERO": {
      "recibos": 24,
-     "importe": 21097.91
+     "importe": 21097.91,
+     "codigo": "114"
     },
     "POBLATS MARITIMS|EL CABANYAL-EL CANYAMELAR": {
      "recibos": 79,
-     "importe": 42652.47
+     "importe": 42652.47,
+     "codigo": "112"
     },
     "POBLATS MARITIMS|EL GRAU": {
      "recibos": 43,
-     "importe": 24597.78
+     "importe": 24597.78,
+     "codigo": "111"
     },
     "POBLATS MARITIMS|LA MALVA-ROSA": {
      "recibos": 26,
-     "importe": 14375.67
+     "importe": 14375.67,
+     "codigo": "113"
     },
     "POBLATS MARITIMS|NATZARET": {
      "recibos": 9,
-     "importe": 3769.45
+     "importe": 3769.45,
+     "codigo": "115"
     },
     "POBLES DE L'OEST|BENIFERRI": {
      "recibos": 3,
-     "importe": 3140.17
+     "importe": 3140.17,
+     "codigo": "182"
     },
     "POBLES DE L'OEST|BENIMAMET": {
      "recibos": 20,
-     "importe": 6909.43
+     "importe": 6909.43,
+     "codigo": "181"
     },
     "POBLES DEL NORD|BENIFARAIG": {
      "recibos": 1,
-     "importe": 205.03
+     "importe": 205.03,
+     "codigo": "171"
     },
     "POBLES DEL NORD|BORBOTO": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "177"
     },
     "POBLES DEL NORD|CARPESA": {
      "recibos": 1,
-     "importe": 380.77
+     "importe": 380.77,
+     "codigo": "173"
     },
     "POBLES DEL NORD|LES CASES DE BARCENA": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "174"
     },
     "POBLES DEL NORD|MASSARROJOS": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "176"
     },
     "POBLES DEL NORD|MAUELLA": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "175"
     },
     "POBLES DEL NORD|POBLE NOU": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "172"
     },
     "POBLES DEL SUD|EL CASTELLAR-L'OLIVERAL": {
      "recibos": 5,
-     "importe": 2928.37
+     "importe": 2928.37,
+     "codigo": "192"
     },
     "POBLES DEL SUD|EL FORN D'ALCEDO": {
      "recibos": 1,
-     "importe": 673.67
+     "importe": 673.67,
+     "codigo": "191"
     },
     "POBLES DEL SUD|EL PALMAR": {
      "recibos": 22,
-     "importe": 19708.56
+     "importe": 19708.56,
+     "codigo": "195"
     },
     "POBLES DEL SUD|EL PERELLONET": {
      "recibos": 2,
-     "importe": 885.43
+     "importe": 885.43,
+     "codigo": "196"
     },
     "POBLES DEL SUD|EL SALER": {
      "recibos": 11,
-     "importe": 11461.39
+     "importe": 11461.39,
+     "codigo": "194"
     },
     "POBLES DEL SUD|FAITANAR": {
      "recibos": 1,
-     "importe": 689.48
+     "importe": 689.48,
+     "codigo": "198"
     },
     "POBLES DEL SUD|LA TORRE": {
      "recibos": 13,
-     "importe": 8593.98
+     "importe": 8593.98,
+     "codigo": "197"
     },
     "POBLES DEL SUD|PINEDO": {
      "recibos": 8,
-     "importe": 4222.71
+     "importe": 4222.71,
+     "codigo": "193"
     },
     "QUATRE CARRERES|CIUTAT ARTS I CIÈNCIES": {
      "recibos": 28,
-     "importe": 25341.45
+     "importe": 25341.45,
+     "codigo": "107"
     },
     "QUATRE CARRERES|EN CORTS": {
      "recibos": 42,
-     "importe": 25529.36
+     "importe": 25529.36,
+     "codigo": "102"
     },
     "QUATRE CARRERES|FONTETA DE SANT LLUIS": {
      "recibos": 3,
-     "importe": 2698.48
+     "importe": 2698.48,
+     "codigo": "104"
     },
     "QUATRE CARRERES|LA PUNTA": {
      "recibos": 1,
-     "importe": 548.01
+     "importe": 548.01,
+     "codigo": "106"
     },
     "QUATRE CARRERES|MALILLA": {
      "recibos": 64,
-     "importe": 39578.05
+     "importe": 39578.05,
+     "codigo": "103"
     },
     "QUATRE CARRERES|MONT-OLIVET": {
      "recibos": 63,
-     "importe": 34607.32
+     "importe": 34607.32,
+     "codigo": "101"
     },
     "QUATRE CARRERES|NA ROVELLA": {
      "recibos": 14,
-     "importe": 8036.82
+     "importe": 8036.82,
+     "codigo": "105"
     },
     "RASCANYA|ELS ORRIOLS": {
      "recibos": 27,
-     "importe": 17690.75
+     "importe": 17690.75,
+     "codigo": "151"
     },
     "RASCANYA|SANT LLORENÇ": {
      "recibos": 34,
-     "importe": 26282.53
+     "importe": 26282.53,
+     "codigo": "153"
     },
     "RASCANYA|TORREFIEL": {
      "recibos": 55,
-     "importe": 26458.01
+     "importe": 26458.01,
+     "codigo": "152"
     }
    }
   },
@@ -639,351 +726,438 @@
    "barrios": {
     "ALGIROS|CIUTAT JARDI": {
      "recibos": 124,
-     "importe": 105089.07
+     "importe": 105089.07,
+     "codigo": "132"
     },
     "ALGIROS|L'AMISTAT": {
      "recibos": 47,
-     "importe": 32012.15
+     "importe": 32012.15,
+     "codigo": "133"
     },
     "ALGIROS|L'ILLA PERDUDA": {
      "recibos": 33,
-     "importe": 21113.67
+     "importe": 21113.67,
+     "codigo": "131"
     },
     "ALGIROS|LA CARRASCA": {
      "recibos": 13,
-     "importe": 11786.49
+     "importe": 11786.49,
+     "codigo": "135"
     },
     "ALGIROS|LA VEGA BAIXA": {
      "recibos": 64,
-     "importe": 34503.14
+     "importe": 34503.14,
+     "codigo": "134"
     },
     "BENICALAP|BENICALAP": {
      "recibos": 131,
-     "importe": 111624.82
+     "importe": 111624.82,
+     "codigo": "161"
     },
     "BENICALAP|CIUTAT FALLERA": {
      "recibos": 7,
-     "importe": 7164.32
+     "importe": 7164.32,
+     "codigo": "162"
     },
     "BENIMACLET|BENIMACLET": {
      "recibos": 110,
-     "importe": 78954.78
+     "importe": 78954.78,
+     "codigo": "141"
     },
     "BENIMACLET|CAMI DE VERA": {
      "recibos": 14,
-     "importe": 9731.32
+     "importe": 9731.32,
+     "codigo": "142"
     },
     "CAMINS AL GRAU|AIORA": {
      "recibos": 59,
-     "importe": 33630.44
+     "importe": 33630.44,
+     "codigo": "121"
     },
     "CAMINS AL GRAU|ALBORS": {
      "recibos": 30,
-     "importe": 20412.78
+     "importe": 20412.78,
+     "codigo": "122"
     },
     "CAMINS AL GRAU|CAMI FONDO": {
      "recibos": 17,
-     "importe": 7206.64
+     "importe": 7206.64,
+     "codigo": "124"
     },
     "CAMINS AL GRAU|LA CREU DEL GRAU": {
      "recibos": 40,
-     "importe": 24285.42
+     "importe": 24285.42,
+     "codigo": "123"
     },
     "CAMINS AL GRAU|PENYA-ROJA": {
      "recibos": 85,
-     "importe": 157369.24
+     "importe": 157369.24,
+     "codigo": "125"
     },
     "CAMPANAR|CAMPANAR": {
      "recibos": 58,
-     "importe": 51964.47
+     "importe": 51964.47,
+     "codigo": "41"
     },
     "CAMPANAR|EL CALVARI": {
      "recibos": 22,
-     "importe": 9213.44
+     "importe": 9213.44,
+     "codigo": "43"
     },
     "CAMPANAR|LES TENDETES": {
      "recibos": 17,
-     "importe": 12623.04
+     "importe": 12623.04,
+     "codigo": "42"
     },
     "CAMPANAR|SANT PAU": {
      "recibos": 46,
-     "importe": 44621.13
+     "importe": 44621.13,
+     "codigo": "44"
     },
     "CIUTAT VELLA|EL CARME": {
      "recibos": 54,
-     "importe": 21143.03
+     "importe": 21143.03,
+     "codigo": "13"
     },
     "CIUTAT VELLA|EL MERCAT": {
      "recibos": 66,
-     "importe": 44805.52
+     "importe": 44805.52,
+     "codigo": "15"
     },
     "CIUTAT VELLA|EL PILAR": {
      "recibos": 24,
-     "importe": 15110.31
+     "importe": 15110.31,
+     "codigo": "14"
     },
     "CIUTAT VELLA|LA SEU": {
      "recibos": 80,
-     "importe": 77154.75
+     "importe": 77154.75,
+     "codigo": "11"
     },
     "CIUTAT VELLA|LA XEREA": {
      "recibos": 43,
-     "importe": 39181.35
+     "importe": 39181.35,
+     "codigo": "12"
     },
     "CIUTAT VELLA|SANT FRANCESC": {
      "recibos": 143,
-     "importe": 174368.31
+     "importe": 174368.31,
+     "codigo": "16"
     },
     "EL PLA DEL REAL|CIUTAT UNIVERSITARIA": {
      "recibos": 7,
-     "importe": 6696.41
+     "importe": 6696.41,
+     "codigo": "64"
     },
     "EL PLA DEL REAL|EXPOSICIO": {
      "recibos": 52,
-     "importe": 50159.4
+     "importe": 50159.4,
+     "codigo": "61"
     },
     "EL PLA DEL REAL|JAUME ROIG": {
      "recibos": 20,
-     "importe": 15358.32
+     "importe": 15358.32,
+     "codigo": "63"
     },
     "EL PLA DEL REAL|MESTALLA": {
      "recibos": 124,
-     "importe": 107613.13
+     "importe": 107613.13,
+     "codigo": "62"
     },
     "EXTRAMURS|ARRANCAPINS": {
      "recibos": 154,
-     "importe": 83754.79
+     "importe": 83754.79,
+     "codigo": "34"
     },
     "EXTRAMURS|EL BOTANIC": {
      "recibos": 27,
-     "importe": 12745.44
+     "importe": 12745.44,
+     "codigo": "31"
     },
     "EXTRAMURS|LA PETXINA": {
      "recibos": 75,
-     "importe": 32066.06
+     "importe": 32066.06,
+     "codigo": "33"
     },
     "EXTRAMURS|LA ROQUETA": {
      "recibos": 35,
-     "importe": 15821.25
+     "importe": 15821.25,
+     "codigo": "32"
     },
     "JESUS|CAMI REAL": {
      "recibos": 5,
-     "importe": 3182.63
+     "importe": 3182.63,
+     "codigo": "95"
     },
     "JESUS|L'HORT DE SENABRE": {
      "recibos": 57,
-     "importe": 32720.43
+     "importe": 32720.43,
+     "codigo": "92"
     },
     "JESUS|LA CREU COBERTA": {
      "recibos": 16,
-     "importe": 8152.69
+     "importe": 8152.69,
+     "codigo": "93"
     },
     "JESUS|LA RAIOSA": {
      "recibos": 32,
-     "importe": 15260.6
+     "importe": 15260.6,
+     "codigo": "91"
     },
     "JESUS|SANT MARCEL.LI": {
      "recibos": 18,
-     "importe": 11042.38
+     "importe": 11042.38,
+     "codigo": "94"
     },
     "L'EIXAMPLE|EL PLA DEL REMEI": {
      "recibos": 55,
-     "importe": 50106.57
+     "importe": 50106.57,
+     "codigo": "22"
     },
     "L'EIXAMPLE|GRAN VIA": {
      "recibos": 201,
-     "importe": 114326.24
+     "importe": 114326.24,
+     "codigo": "23"
     },
     "L'EIXAMPLE|RUSSAFA": {
      "recibos": 240,
-     "importe": 98681.26
+     "importe": 98681.26,
+     "codigo": "21"
     },
     "L'OLIVERETA|LA FONTSANTA": {
      "recibos": 9,
-     "importe": 6870.8
+     "importe": 6870.8,
+     "codigo": "74"
     },
     "L'OLIVERETA|LA LLUM": {
      "recibos": 18,
-     "importe": 10930.96
+     "importe": 10930.96,
+     "codigo": "75"
     },
     "L'OLIVERETA|NOU MOLES": {
      "recibos": 62,
-     "importe": 36090.16
+     "importe": 36090.16,
+     "codigo": "71"
     },
     "L'OLIVERETA|SOTERNES": {
      "recibos": 18,
-     "importe": 14224.01
+     "importe": 14224.01,
+     "codigo": "72"
     },
     "L'OLIVERETA|TRES FORQUES": {
      "recibos": 10,
-     "importe": 5936.74
+     "importe": 5936.74,
+     "codigo": "73"
     },
     "LA SAIDIA|MARXALENES": {
      "recibos": 41,
-     "importe": 27881.83
+     "importe": 27881.83,
+     "codigo": "51"
     },
     "LA SAIDIA|MORVEDRE": {
      "recibos": 34,
-     "importe": 18236.2
+     "importe": 18236.2,
+     "codigo": "52"
     },
     "LA SAIDIA|SANT ANTONI": {
      "recibos": 30,
-     "importe": 19837.42
+     "importe": 19837.42,
+     "codigo": "55"
     },
     "LA SAIDIA|TORMOS": {
      "recibos": 21,
-     "importe": 9851.04
+     "importe": 9851.04,
+     "codigo": "54"
     },
     "LA SAIDIA|TRINITAT": {
      "recibos": 50,
-     "importe": 30531.36
+     "importe": 30531.36,
+     "codigo": "53"
     },
     "PATRAIX|FAVARA": {
      "recibos": 17,
-     "importe": 7079.04
+     "importe": 7079.04,
+     "codigo": "85"
     },
     "PATRAIX|PATRAIX": {
      "recibos": 82,
-     "importe": 45533.22
+     "importe": 45533.22,
+     "codigo": "81"
     },
     "PATRAIX|SAFRANAR": {
      "recibos": 24,
-     "importe": 16492.48
+     "importe": 16492.48,
+     "codigo": "84"
     },
     "PATRAIX|SANT ISIDRE": {
      "recibos": 27,
-     "importe": 14312.02
+     "importe": 14312.02,
+     "codigo": "82"
     },
     "PATRAIX|VARA DE QUART": {
      "recibos": 40,
-     "importe": 21973.37
+     "importe": 21973.37,
+     "codigo": "83"
     },
     "POBLATS MARITIMS|BETERO": {
      "recibos": 22,
-     "importe": 20058.55
+     "importe": 20058.55,
+     "codigo": "114"
     },
     "POBLATS MARITIMS|EL CABANYAL-EL CANYAMELAR": {
      "recibos": 77,
-     "importe": 45421.88
+     "importe": 45421.88,
+     "codigo": "112"
     },
     "POBLATS MARITIMS|EL GRAU": {
      "recibos": 42,
-     "importe": 22840.65
+     "importe": 22840.65,
+     "codigo": "111"
     },
     "POBLATS MARITIMS|LA MALVA-ROSA": {
      "recibos": 25,
-     "importe": 12578.44
+     "importe": 12578.44,
+     "codigo": "113"
     },
     "POBLATS MARITIMS|NATZARET": {
      "recibos": 8,
-     "importe": 3096.37
+     "importe": 3096.37,
+     "codigo": "115"
     },
     "POBLES DE L'OEST|BENIFERRI": {
      "recibos": 5,
-     "importe": 5809.07
+     "importe": 5809.07,
+     "codigo": "182"
     },
     "POBLES DE L'OEST|BENIMAMET": {
      "recibos": 21,
-     "importe": 7201.74
+     "importe": 7201.74,
+     "codigo": "181"
     },
     "POBLES DEL NORD|BENIFARAIG": {
      "recibos": 1,
-     "importe": 205.03
+     "importe": 205.03,
+     "codigo": "171"
     },
     "POBLES DEL NORD|BORBOTO": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "177"
     },
     "POBLES DEL NORD|CARPESA": {
      "recibos": 1,
-     "importe": 380.77
+     "importe": 380.77,
+     "codigo": "173"
     },
     "POBLES DEL NORD|LES CASES DE BARCENA": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "174"
     },
     "POBLES DEL NORD|MASSARROJOS": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "176"
     },
     "POBLES DEL NORD|MAUELLA": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "175"
     },
     "POBLES DEL NORD|POBLE NOU": {
      "recibos": 0,
-     "importe": 0.0
+     "importe": 0.0,
+     "codigo": "172"
     },
     "POBLES DEL SUD|EL CASTELLAR-L'OLIVERAL": {
      "recibos": 6,
-     "importe": 3288.05
+     "importe": 3288.05,
+     "codigo": "192"
     },
     "POBLES DEL SUD|EL FORN D'ALCEDO": {
      "recibos": 1,
-     "importe": 673.67
+     "importe": 673.67,
+     "codigo": "191"
     },
     "POBLES DEL SUD|EL PALMAR": {
      "recibos": 22,
-     "importe": 21720.19
+     "importe": 21720.19,
+     "codigo": "195"
     },
     "POBLES DEL SUD|EL PERELLONET": {
      "recibos": 2,
-     "importe": 885.43
+     "importe": 885.43,
+     "codigo": "196"
     },
     "POBLES DEL SUD|EL SALER": {
      "recibos": 10,
-     "importe": 8105.85
+     "importe": 8105.85,
+     "codigo": "194"
     },
     "POBLES DEL SUD|FAITANAR": {
      "recibos": 2,
-     "importe": 2018.07
+     "importe": 2018.07,
+     "codigo": "198"
     },
     "POBLES DEL SUD|LA TORRE": {
      "recibos": 15,
-     "importe": 9326.22
+     "importe": 9326.22,
+     "codigo": "197"
     },
     "POBLES DEL SUD|PINEDO": {
      "recibos": 8,
-     "importe": 4222.71
+     "importe": 4222.71,
+     "codigo": "193"
     },
     "QUATRE CARRERES|CIUTAT ARTS I CIÈNCIES": {
      "recibos": 26,
-     "importe": 29809.37
+     "importe": 29809.37,
+     "codigo": "107"
     },
     "QUATRE CARRERES|EN CORTS": {
      "recibos": 38,
-     "importe": 23679.71
+     "importe": 23679.71,
+     "codigo": "102"
     },
     "QUATRE CARRERES|FONTETA DE SANT LLUIS": {
      "recibos": 4,
-     "importe": 2950.37
+     "importe": 2950.37,
+     "codigo": "104"
     },
     "QUATRE CARRERES|LA PUNTA": {
      "recibos": 1,
-     "importe": 548.01
+     "importe": 548.01,
+     "codigo": "106"
     },
     "QUATRE CARRERES|MALILLA": {
      "recibos": 52,
-     "importe": 34047.44
+     "importe": 34047.44,
+     "codigo": "103"
     },
     "QUATRE CARRERES|MONT-OLIVET": {
      "recibos": 65,
-     "importe": 35798.05
+     "importe": 35798.05,
+     "codigo": "101"
     },
     "QUATRE CARRERES|NA ROVELLA": {
      "recibos": 12,
-     "importe": 7182.73
+     "importe": 7182.73,
+     "codigo": "105"
     },
     "RASCANYA|ELS ORRIOLS": {
      "recibos": 25,
-     "importe": 16164.17
+     "importe": 16164.17,
+     "codigo": "151"
     },
     "RASCANYA|SANT LLORENÇ": {
      "recibos": 25,
-     "importe": 19059.4
+     "importe": 19059.4,
+     "codigo": "153"
     },
     "RASCANYA|TORREFIEL": {
      "recibos": 48,
-     "importe": 23824.28
+     "importe": 23824.28,
+     "codigo": "152"
     }
    }
   },
@@ -1066,183 +1240,228 @@
    "barrios": {
     "L'EIXAMPLE|EL PLA DEL REMEI": {
      "recibos": 58,
-     "importe": 50911.26
+     "importe": 50911.26,
+     "codigo": "22"
     },
     "L'EIXAMPLE|GRAN VIA": {
      "recibos": 202,
-     "importe": 114438.41
+     "importe": 114438.41,
+     "codigo": "23"
     },
     "L'EIXAMPLE|RUSSAFA": {
      "recibos": 246,
-     "importe": 101248.1
+     "importe": 101248.1,
+     "codigo": "21"
     },
     "L'OLIVERETA|LA FONTSANTA": {
      "recibos": 9,
-     "importe": 6870.8
+     "importe": 6870.8,
+     "codigo": "74"
     },
     "L'OLIVERETA|LA LLUM": {
      "recibos": 18,
-     "importe": 10930.96
+     "importe": 10930.96,
+     "codigo": "75"
     },
     "L'OLIVERETA|NOU MOLES": {
      "recibos": 66,
-     "importe": 38839.89
+     "importe": 38839.89,
+     "codigo": "71"
     },
     "L'OLIVERETA|SOTERNES": {
      "recibos": 19,
-     "importe": 15295.73
+     "importe": 15295.73,
+     "codigo": "72"
     },
     "L'OLIVERETA|TRES FORQUES": {
      "recibos": 9,
-     "importe": 5641.5
+     "importe": 5641.5,
+     "codigo": "73"
     },
     "LA SAIDIA|MARXALENES": {
      "recibos": 40,
-     "importe": 28082.15
+     "importe": 28082.15,
+     "codigo": "51"
     },
     "LA SAIDIA|MORVEDRE": {
      "recibos": 35,
-     "importe": 19098.66
+     "importe": 19098.66,
+     "codigo": "52"
     },
     "LA SAIDIA|SANT ANTONI": {
      "recibos": 31,
-     "importe": 19659.04
+     "importe": 19659.04,
+     "codigo": "55"
     },
     "LA SAIDIA|TORMOS": {
      "recibos": 21,
-     "importe": 9851.04
+     "importe": 9851.04,
+     "codigo": "54"
     },
     "LA SAIDIA|TRINITAT": {
      "recibos": 49,
-     "importe": 30012.16
+     "importe": 30012.16,
+     "codigo": "53"
     },
     "PATRAIX|FAVARA": {
      "recibos": 17,
-     "importe": 6854.39
+     "importe": 6854.39,
+     "codigo": "85"
     },
     "PATRAIX|PATRAIX": {
      "recibos": 82,
-     "importe": 46421.19
+     "importe": 46421.19,
+     "codigo": "81"
     },
     "PATRAIX|SAFRANAR": {
      "recibos": 24,
-     "importe": 15941.53
+     "importe": 15941.53,
+     "codigo": "84"
     },
     "PATRAIX|SANT ISIDRE": {
      "recibos": 26,
-     "importe": 14058.08
+     "importe": 14058.08,
+     "codigo": "82"
     },
     "PATRAIX|VARA DE QUART": {
      "recibos": 39,
-     "importe": 22157.74
+     "importe": 22157.74,
+     "codigo": "83"
     },
     "POBLATS MARITIMS|BETERO": {
      "recibos": 22,
-     "importe": 19876.66
+     "importe": 19876.66,
+     "codigo": "114"
     },
     "POBLATS MARITIMS|EL CABANYAL-EL CANYAMELAR": {
      "recibos": 80,
-     "importe": 47490.87
+     "importe": 47490.87,
+     "codigo": "112"
     },
     "POBLATS MARITIMS|EL GRAU": {
      "recibos": 48,
-     "importe": 25425.17
+     "importe": 25425.17,
+     "codigo": "111"
     },
     "POBLATS MARITIMS|LA MALVA-ROSA": {
      "recibos": 25,
-     "importe": 14192.09
+     "importe": 14192.09,
+     "codigo": "113"
     },
     "POBLATS MARITIMS|NATZARET": {
      "recibos": 6,
-     "importe": 2746.72
+     "importe": 2746.72,
+     "codigo": "115"
     },
     "POBLES DE L'OEST|BENIFERRI": {
      "recibos": 5,
-     "importe": 5809.07
+     "importe": 5809.07,
+     "codigo": "182"
     },
     "POBLES DE L'OEST|BENIMAMET": {
      "recibos": 22,
-     "importe": 8986.97
+     "importe": 8986.97,
+     "codigo": "181"
     },
     "POBLES DEL NORD|BENIFARAIG": {
      "recibos": 2,
-     "importe": 726.68
+     "importe": 726.68,
+     "codigo": "171"
     },
     "POBLES DEL NORD|CARPESA": {
      "recibos": 1,
-     "importe": 380.77
+     "importe": 380.77,
+     "codigo": "173"
     },
     "POBLES DEL SUD|EL CASTELLAR-L'OLIVERAL": {
      "recibos": 6,
-     "importe": 3288.05
+     "importe": 3288.05,
+     "codigo": "192"
     },
     "POBLES DEL SUD|EL FORN D'ALCEDO": {
      "recibos": 2,
-     "importe": 1473.28
+     "importe": 1473.28,
+     "codigo": "191"
     },
     "POBLES DEL SUD|EL PALMAR": {
      "recibos": 22,
-     "importe": 22115.6
+     "importe": 22115.6,
+     "codigo": "195"
     },
     "POBLES DEL SUD|EL PERELLONET": {
      "recibos": 2,
-     "importe": 885.43
+     "importe": 885.43,
+     "codigo": "196"
     },
     "POBLES DEL SUD|EL SALER": {
      "recibos": 10,
-     "importe": 8105.85
+     "importe": 8105.85,
+     "codigo": "194"
     },
     "POBLES DEL SUD|FAITANAR": {
      "recibos": 2,
-     "importe": 2018.07
+     "importe": 2018.07,
+     "codigo": "198"
     },
     "POBLES DEL SUD|LA TORRE": {
      "recibos": 14,
-     "importe": 8949.26
+     "importe": 8949.26,
+     "codigo": "197"
     },
     "POBLES DEL SUD|PINEDO": {
      "recibos": 8,
-     "importe": 4222.71
+     "importe": 4222.71,
+     "codigo": "193"
     },
     "QUATRE CARRERES|CIUTAT ARTS I CIÈNCIES": {
      "recibos": 25,
-     "importe": 29008.5
+     "importe": 29008.5,
+     "codigo": "107"
     },
     "QUATRE CARRERES|EN CORTS": {
      "recibos": 37,
-     "importe": 23652.89
+     "importe": 23652.89,
+     "codigo": "102"
     },
     "QUATRE CARRERES|FONTETA DE SANT LLUIS": {
      "recibos": 4,
-     "importe": 2950.37
+     "importe": 2950.37,
+     "codigo": "104"
     },
     "QUATRE CARRERES|LA PUNTA": {
      "recibos": 1,
-     "importe": 548.01
+     "importe": 548.01,
+     "codigo": "106"
     },
     "QUATRE CARRERES|MALILLA": {
      "recibos": 54,
-     "importe": 34846.38
+     "importe": 34846.38,
+     "codigo": "103"
     },
     "QUATRE CARRERES|MONT-OLIVET": {
      "recibos": 65,
-     "importe": 33538.61
+     "importe": 33538.61,
+     "codigo": "101"
     },
     "QUATRE CARRERES|NA ROVELLA": {
      "recibos": 11,
-     "importe": 6708.24
+     "importe": 6708.24,
+     "codigo": "105"
     },
     "RASCANYA|ELS ORRIOLS": {
      "recibos": 26,
-     "importe": 16201.35
+     "importe": 16201.35,
+     "codigo": "151"
     },
     "RASCANYA|SANT LLORENÇ": {
      "recibos": 29,
-     "importe": 23416.27
+     "importe": 23416.27,
+     "codigo": "153"
     },
     "RASCANYA|TORREFIEL": {
      "recibos": 48,
-     "importe": 23208.6
+     "importe": 23208.6,
+     "codigo": "152"
     }
    }
   },
@@ -1388,331 +1607,413 @@
    "barrios": {
     "ALGIROS|CIUTAT JARDI": {
      "recibos": 123,
-     "importe": 80037.93
+     "importe": 80037.93,
+     "codigo": "132"
     },
     "ALGIROS|L'AMISTAT": {
      "recibos": 45,
-     "importe": 30486.14
+     "importe": 30486.14,
+     "codigo": "133"
     },
     "ALGIROS|L'ILLA PERDUDA": {
      "recibos": 32,
-     "importe": 20543.98
+     "importe": 20543.98,
+     "codigo": "131"
     },
     "ALGIROS|LA CARRASCA": {
      "recibos": 11,
-     "importe": 9954.7
+     "importe": 9954.7,
+     "codigo": "135"
     },
     "ALGIROS|LA VEGA BAIXA": {
      "recibos": 62,
-     "importe": 34084.33
+     "importe": 34084.33,
+     "codigo": "134"
     },
     "BENICALAP|BENICALAP": {
      "recibos": 138,
-     "importe": 117452.69
+     "importe": 117452.69,
+     "codigo": "161"
     },
     "BENICALAP|CIUTAT FALLERA": {
      "recibos": 9,
-     "importe": 6972.17
+     "importe": 6972.17,
+     "codigo": "162"
     },
     "BENIMACLET|BENIMACLET": {
      "recibos": 132,
-     "importe": 89144.74
+     "importe": 89144.74,
+     "codigo": "141"
     },
     "BENIMACLET|CAMI DE VERA": {
      "recibos": 16,
-     "importe": 12349.26
+     "importe": 12349.26,
+     "codigo": "142"
     },
     "CAMINS AL GRAU|AIORA": {
      "recibos": 66,
-     "importe": 37440.8
+     "importe": 37440.8,
+     "codigo": "121"
     },
     "CAMINS AL GRAU|ALBORS": {
      "recibos": 30,
-     "importe": 20808.48
+     "importe": 20808.48,
+     "codigo": "122"
     },
     "CAMINS AL GRAU|CAMI FONDO": {
      "recibos": 16,
-     "importe": 7018.98
+     "importe": 7018.98,
+     "codigo": "124"
     },
     "CAMINS AL GRAU|LA CREU DEL GRAU": {
      "recibos": 42,
-     "importe": 26367.04
+     "importe": 26367.04,
+     "codigo": "123"
     },
     "CAMINS AL GRAU|PENYA-ROJA": {
      "recibos": 87,
-     "importe": 160538.11
+     "importe": 160538.11,
+     "codigo": "125"
     },
     "CAMPANAR|CAMPANAR": {
      "recibos": 64,
-     "importe": 56186.18
+     "importe": 56186.18,
+     "codigo": "41"
     },
     "CAMPANAR|EL CALVARI": {
      "recibos": 24,
-     "importe": 9903.8
+     "importe": 9903.8,
+     "codigo": "43"
     },
     "CAMPANAR|LES TENDETES": {
      "recibos": 17,
-     "importe": 12301.72
+     "importe": 12301.72,
+     "codigo": "42"
     },
     "CAMPANAR|SANT PAU": {
      "recibos": 48,
-     "importe": 50172.23
+     "importe": 50172.23,
+     "codigo": "44"
     },
     "CIUTAT VELLA|EL CARME": {
      "recibos": 56,
-     "importe": 23423.63
+     "importe": 23423.63,
+     "codigo": "13"
     },
     "CIUTAT VELLA|EL MERCAT": {
      "recibos": 70,
-     "importe": 46988.76
+     "importe": 46988.76,
+     "codigo": "15"
     },
     "CIUTAT VELLA|EL PILAR": {
      "recibos": 22,
-     "importe": 13977.38
+     "importe": 13977.38,
+     "codigo": "14"
     },
     "CIUTAT VELLA|LA SEU": {
      "recibos": 77,
-     "importe": 67903.79
+     "importe": 67903.79,
+     "codigo": "11"
     },
     "CIUTAT VELLA|LA XEREA": {
      "recibos": 46,
-     "importe": 38152.63
+     "importe": 38152.63,
+     "codigo": "12"
     },
     "CIUTAT VELLA|SANT FRANCESC": {
      "recibos": 151,
-     "importe": 179132.91
+     "importe": 179132.91,
+     "codigo": "16"
     },
     "EL PLA DEL REAL|CIUTAT UNIVERSITARIA": {
      "recibos": 7,
-     "importe": 6021.66
+     "importe": 6021.66,
+     "codigo": "64"
     },
     "EL PLA DEL REAL|EXPOSICIO": {
      "recibos": 54,
-     "importe": 51614.44
+     "importe": 51614.44,
+     "codigo": "61"
     },
     "EL PLA DEL REAL|JAUME ROIG": {
      "recibos": 23,
-     "importe": 17017.52
+     "importe": 17017.52,
+     "codigo": "63"
     },
     "EL PLA DEL REAL|MESTALLA": {
      "recibos": 135,
-     "importe": 112893.08
+     "importe": 112893.08,
+     "codigo": "62"
     },
     "EXTRAMURS|ARRANCAPINS": {
      "recibos": 161,
-     "importe": 87785.06
+     "importe": 87785.06,
+     "codigo": "34"
     },
     "EXTRAMURS|EL BOTANIC": {
      "recibos": 32,
-     "importe": 15013.32
+     "importe": 15013.32,
+     "codigo": "31"
     },
     "EXTRAMURS|LA PETXINA": {
      "recibos": 77,
-     "importe": 32592.09
+     "importe": 32592.09,
+     "codigo": "33"
     },
     "EXTRAMURS|LA ROQUETA": {
      "recibos": 37,
-     "importe": 19164.47
+     "importe": 19164.47,
+     "codigo": "32"
     },
     "JESUS|CAMI REAL": {
      "recibos": 4,
-     "importe": 2338.79
+     "importe": 2338.79,
+     "codigo": "95"
     },
     "JESUS|L'HORT DE SENABRE": {
      "recibos": 62,
-     "importe": 36279.43
+     "importe": 36279.43,
+     "codigo": "92"
     },
     "JESUS|LA CREU COBERTA": {
      "recibos": 15,
-     "importe": 7831.09
+     "importe": 7831.09,
+     "codigo": "93"
     },
     "JESUS|LA RAIOSA": {
      "recibos": 34,
-     "importe": 15049.13
+     "importe": 15049.13,
+     "codigo": "91"
     },
     "JESUS|SANT MARCEL.LI": {
      "recibos": 18,
-     "importe": 10446.29
+     "importe": 10446.29,
+     "codigo": "94"
     },
     "L'EIXAMPLE|EL PLA DEL REMEI": {
      "recibos": 67,
-     "importe": 52341.21
+     "importe": 52341.21,
+     "codigo": "22"
     },
     "L'EIXAMPLE|GRAN VIA": {
      "recibos": 205,
-     "importe": 114534.69
+     "importe": 114534.69,
+     "codigo": "23"
     },
     "L'EIXAMPLE|RUSSAFA": {
      "recibos": 264,
-     "importe": 103680.9
+     "importe": 103680.9,
+     "codigo": "21"
     },
     "L'OLIVERETA|LA FONTSANTA": {
      "recibos": 9,
-     "importe": 7029.26
+     "importe": 7029.26,
+     "codigo": "74"
     },
     "L'OLIVERETA|LA LLUM": {
      "recibos": 18,
-     "importe": 11720.03
+     "importe": 11720.03,
+     "codigo": "75"
     },
     "L'OLIVERETA|NOU MOLES": {
      "recibos": 70,
-     "importe": 40337.38
+     "importe": 40337.38,
+     "codigo": "71"
     },
     "L'OLIVERETA|SOTERNES": {
      "recibos": 21,
-     "importe": 15835.11
+     "importe": 15835.11,
+     "codigo": "72"
     },
     "L'OLIVERETA|TRES FORQUES": {
      "recibos": 9,
-     "importe": 5641.5
+     "importe": 5641.5,
+     "codigo": "73"
     },
     "LA SAIDIA|MARXALENES": {
      "recibos": 40,
-     "importe": 27529.56
+     "importe": 27529.56,
+     "codigo": "51"
     },
     "LA SAIDIA|MORVEDRE": {
      "recibos": 33,
-     "importe": 19301.08
+     "importe": 19301.08,
+     "codigo": "52"
     },
     "LA SAIDIA|SANT ANTONI": {
      "recibos": 31,
-     "importe": 19822.48
+     "importe": 19822.48,
+     "codigo": "55"
     },
     "LA SAIDIA|TORMOS": {
      "recibos": 20,
-     "importe": 8874.22
+     "importe": 8874.22,
+     "codigo": "54"
     },
     "LA SAIDIA|TRINITAT": {
      "recibos": 48,
-     "importe": 30700.83
+     "importe": 30700.83,
+     "codigo": "53"
     },
     "PATRAIX|FAVARA": {
      "recibos": 17,
-     "importe": 6461.9
+     "importe": 6461.9,
+     "codigo": "85"
     },
     "PATRAIX|PATRAIX": {
      "recibos": 86,
-     "importe": 49182.2
+     "importe": 49182.2,
+     "codigo": "81"
     },
     "PATRAIX|SAFRANAR": {
      "recibos": 26,
-     "importe": 18909.18
+     "importe": 18909.18,
+     "codigo": "84"
     },
     "PATRAIX|SANT ISIDRE": {
      "recibos": 26,
-     "importe": 14162.95
+     "importe": 14162.95,
+     "codigo": "82"
     },
     "PATRAIX|VARA DE QUART": {
      "recibos": 41,
-     "importe": 24816.37
+     "importe": 24816.37,
+     "codigo": "83"
     },
     "POBLATS MARITIMS|BETERO": {
      "recibos": 20,
-     "importe": 16718.64
+     "importe": 16718.64,
+     "codigo": "114"
     },
     "POBLATS MARITIMS|EL CABANYAL-EL CANYAMELAR": {
      "recibos": 101,
-     "importe": 61826.52
+     "importe": 61826.52,
+     "codigo": "112"
     },
     "POBLATS MARITIMS|EL GRAU": {
      "recibos": 52,
-     "importe": 29219.96
+     "importe": 29219.96,
+     "codigo": "111"
     },
     "POBLATS MARITIMS|LA MALVA-ROSA": {
      "recibos": 28,
-     "importe": 16956.47
+     "importe": 16956.47,
+     "codigo": "113"
     },
     "POBLATS MARITIMS|NATZARET": {
      "recibos": 8,
-     "importe": 3215.34
+     "importe": 3215.34,
+     "codigo": "115"
     },
     "POBLES DE L'OEST|BENIFERRI": {
      "recibos": 6,
-     "importe": 7226.99
+     "importe": 7226.99,
+     "codigo": "182"
     },
     "POBLES DE L'OEST|BENIMAMET": {
      "recibos": 21,
-     "importe": 9163.29
+     "importe": 9163.29,
+     "codigo": "181"
     },
     "POBLES DEL NORD|BENIFARAIG": {
      "recibos": 2,
-     "importe": 726.68
+     "importe": 726.68,
+     "codigo": "171"
     },
     "POBLES DEL NORD|CARPESA": {
      "recibos": 1,
-     "importe": 380.77
+     "importe": 380.77,
+     "codigo": "173"
     },
     "POBLES DEL SUD|EL CASTELLAR-L'OLIVERAL": {
      "recibos": 6,
-     "importe": 3288.05
+     "importe": 3288.05,
+     "codigo": "192"
     },
     "POBLES DEL SUD|EL FORN D'ALCEDO": {
      "recibos": 3,
-     "importe": 1588.38
+     "importe": 1588.38,
+     "codigo": "191"
     },
     "POBLES DEL SUD|EL PALMAR": {
      "recibos": 22,
-     "importe": 25056.61
+     "importe": 25056.61,
+     "codigo": "195"
     },
     "POBLES DEL SUD|EL PERELLONET": {
      "recibos": 3,
-     "importe": 1140.04
+     "importe": 1140.04,
+     "codigo": "196"
     },
     "POBLES DEL SUD|EL SALER": {
      "recibos": 10,
-     "importe": 8105.85
+     "importe": 8105.85,
+     "codigo": "194"
     },
     "POBLES DEL SUD|FAITANAR": {
      "recibos": 2,
-     "importe": 1673.33
+     "importe": 1673.33,
+     "codigo": "198"
     },
     "POBLES DEL SUD|LA TORRE": {
      "recibos": 13,
-     "importe": 8691.8
+     "importe": 8691.8,
+     "codigo": "197"
     },
     "POBLES DEL SUD|PINEDO": {
      "recibos": 9,
-     "importe": 4375.01
+     "importe": 4375.01,
+     "codigo": "193"
     },
     "QUATRE CARRERES|CIUTAT ARTS I CIÈNCIES": {
      "recibos": 27,
-     "importe": 30609.18
+     "importe": 30609.18,
+     "codigo": "107"
     },
     "QUATRE CARRERES|EN CORTS": {
      "recibos": 38,
-     "importe": 24822.15
+     "importe": 24822.15,
+     "codigo": "102"
     },
     "QUATRE CARRERES|FONTETA DE SANT LLUIS": {
      "recibos": 5,
-     "importe": 6479.81
+     "importe": 6479.81,
+     "codigo": "104"
     },
     "QUATRE CARRERES|LA PUNTA": {
      "recibos": 1,
-     "importe": 548.01
+     "importe": 548.01,
+     "codigo": "106"
     },
     "QUATRE CARRERES|MALILLA": {
      "recibos": 59,
-     "importe": 41082.5
+     "importe": 41082.5,
+     "codigo": "103"
     },
     "QUATRE CARRERES|MONT-OLIVET": {
      "recibos": 66,
-     "importe": 34812.13
+     "importe": 34812.13,
+     "codigo": "101"
     },
     "QUATRE CARRERES|NA ROVELLA": {
      "recibos": 10,
-     "importe": 7258.9
+     "importe": 7258.9,
+     "codigo": "105"
     },
     "RASCANYA|ELS ORRIOLS": {
      "recibos": 27,
-     "importe": 16232.1
+     "importe": 16232.1,
+     "codigo": "151"
     },
     "RASCANYA|SANT LLORENÇ": {
      "recibos": 32,
-     "importe": 26129.1
+     "importe": 26129.1,
+     "codigo": "153"
     },
     "RASCANYA|TORREFIEL": {
      "recibos": 50,
-     "importe": 23666.61
+     "importe": 23666.61,
+     "codigo": "152"
     }
    }
   },
@@ -1858,332 +2159,846 @@
    "barrios": {
     "ALGIROS|CIUTAT JARDI": {
      "recibos": 121,
-     "importe": 81548.82
+     "importe": 81548.82,
+     "codigo": "132"
     },
     "ALGIROS|L'AMISTAT": {
      "recibos": 45,
-     "importe": 30625.75
+     "importe": 30625.75,
+     "codigo": "133"
     },
     "ALGIROS|L'ILLA PERDUDA": {
      "recibos": 32,
-     "importe": 19858.2
+     "importe": 19858.2,
+     "codigo": "131"
     },
     "ALGIROS|LA CARRASCA": {
      "recibos": 10,
-     "importe": 8537.46
+     "importe": 8537.46,
+     "codigo": "135"
     },
     "ALGIROS|LA VEGA BAIXA": {
      "recibos": 60,
-     "importe": 32981.41
+     "importe": 32981.41,
+     "codigo": "134"
     },
     "BENICALAP|BENICALAP": {
      "recibos": 146,
-     "importe": 127417.98
+     "importe": 127417.98,
+     "codigo": "161"
     },
     "BENICALAP|CIUTAT FALLERA": {
      "recibos": 8,
-     "importe": 6591.4
+     "importe": 6591.4,
+     "codigo": "162"
     },
     "BENIMACLET|BENIMACLET": {
      "recibos": 134,
-     "importe": 93065.22
+     "importe": 93065.22,
+     "codigo": "141"
     },
     "BENIMACLET|CAMI DE VERA": {
      "recibos": 16,
-     "importe": 13214.15
+     "importe": 13214.15,
+     "codigo": "142"
     },
     "CAMINS AL GRAU|AIORA": {
      "recibos": 68,
-     "importe": 39776.38
+     "importe": 39776.38,
+     "codigo": "121"
     },
     "CAMINS AL GRAU|ALBORS": {
      "recibos": 32,
-     "importe": 21989.44
+     "importe": 21989.44,
+     "codigo": "122"
     },
     "CAMINS AL GRAU|CAMI FONDO": {
      "recibos": 16,
-     "importe": 7108.9
+     "importe": 7108.9,
+     "codigo": "124"
     },
     "CAMINS AL GRAU|LA CREU DEL GRAU": {
      "recibos": 42,
-     "importe": 26644.66
+     "importe": 26644.66,
+     "codigo": "123"
     },
     "CAMINS AL GRAU|PENYA-ROJA": {
      "recibos": 90,
-     "importe": 144641.45
+     "importe": 144641.45,
+     "codigo": "125"
     },
     "CAMPANAR|CAMPANAR": {
      "recibos": 61,
-     "importe": 53172.54
+     "importe": 53172.54,
+     "codigo": "41"
     },
     "CAMPANAR|EL CALVARI": {
      "recibos": 22,
-     "importe": 9573.71
+     "importe": 9573.71,
+     "codigo": "43"
     },
     "CAMPANAR|LES TENDETES": {
      "recibos": 16,
-     "importe": 12439.68
+     "importe": 12439.68,
+     "codigo": "42"
     },
     "CAMPANAR|SANT PAU": {
      "recibos": 47,
-     "importe": 50212.55
+     "importe": 50212.55,
+     "codigo": "44"
     },
     "CIUTAT VELLA|EL CARME": {
      "recibos": 55,
-     "importe": 22824.22
+     "importe": 22824.22,
+     "codigo": "13"
     },
     "CIUTAT VELLA|EL MERCAT": {
      "recibos": 73,
-     "importe": 48106.12
+     "importe": 48106.12,
+     "codigo": "15"
     },
     "CIUTAT VELLA|EL PILAR": {
      "recibos": 21,
-     "importe": 13052.69
+     "importe": 13052.69,
+     "codigo": "14"
     },
     "CIUTAT VELLA|LA SEU": {
      "recibos": 77,
-     "importe": 64686.42
+     "importe": 64686.42,
+     "codigo": "11"
     },
     "CIUTAT VELLA|LA XEREA": {
      "recibos": 47,
-     "importe": 41914.06
+     "importe": 41914.06,
+     "codigo": "12"
     },
     "CIUTAT VELLA|SANT FRANCESC": {
      "recibos": 157,
-     "importe": 190212.53
+     "importe": 190212.53,
+     "codigo": "16"
     },
     "EL PLA DEL REAL|CIUTAT UNIVERSITARIA": {
      "recibos": 7,
-     "importe": 6013.01
+     "importe": 6013.01,
+     "codigo": "64"
     },
     "EL PLA DEL REAL|EXPOSICIO": {
      "recibos": 55,
-     "importe": 52544.19
+     "importe": 52544.19,
+     "codigo": "61"
     },
     "EL PLA DEL REAL|JAUME ROIG": {
      "recibos": 23,
-     "importe": 17067.76
+     "importe": 17067.76,
+     "codigo": "63"
     },
     "EL PLA DEL REAL|MESTALLA": {
      "recibos": 128,
-     "importe": 110409.78
+     "importe": 110409.78,
+     "codigo": "62"
     },
     "EXTRAMURS|ARRANCAPINS": {
      "recibos": 160,
-     "importe": 92105.16
+     "importe": 92105.16,
+     "codigo": "34"
     },
     "EXTRAMURS|EL BOTANIC": {
      "recibos": 34,
-     "importe": 15369.46
+     "importe": 15369.46,
+     "codigo": "31"
     },
     "EXTRAMURS|LA PETXINA": {
      "recibos": 79,
-     "importe": 33034.83
+     "importe": 33034.83,
+     "codigo": "33"
     },
     "EXTRAMURS|LA ROQUETA": {
      "recibos": 37,
-     "importe": 19013.33
+     "importe": 19013.33,
+     "codigo": "32"
     },
     "JESUS|CAMI REAL": {
      "recibos": 4,
-     "importe": 2338.79
+     "importe": 2338.79,
+     "codigo": "95"
     },
     "JESUS|L'HORT DE SENABRE": {
      "recibos": 63,
-     "importe": 39235.94
+     "importe": 39235.94,
+     "codigo": "92"
     },
     "JESUS|LA CREU COBERTA": {
      "recibos": 15,
-     "importe": 8507.69
+     "importe": 8507.69,
+     "codigo": "93"
     },
     "JESUS|LA RAIOSA": {
      "recibos": 34,
-     "importe": 14897.05
+     "importe": 14897.05,
+     "codigo": "91"
     },
     "JESUS|SANT MARCEL.LI": {
      "recibos": 17,
-     "importe": 11048.35
+     "importe": 11048.35,
+     "codigo": "94"
     },
     "L'EIXAMPLE|EL PLA DEL REMEI": {
      "recibos": 66,
-     "importe": 49689.15
+     "importe": 49689.15,
+     "codigo": "22"
     },
     "L'EIXAMPLE|GRAN VIA": {
      "recibos": 205,
-     "importe": 110862.63
+     "importe": 110862.63,
+     "codigo": "23"
     },
     "L'EIXAMPLE|RUSSAFA": {
      "recibos": 272,
-     "importe": 104525.06
+     "importe": 104525.06,
+     "codigo": "21"
     },
     "L'OLIVERETA|LA FONTSANTA": {
      "recibos": 8,
-     "importe": 6098.73
+     "importe": 6098.73,
+     "codigo": "74"
     },
     "L'OLIVERETA|LA LLUM": {
      "recibos": 17,
-     "importe": 11896.36
+     "importe": 11896.36,
+     "codigo": "75"
     },
     "L'OLIVERETA|NOU MOLES": {
      "recibos": 70,
-     "importe": 39193.6
+     "importe": 39193.6,
+     "codigo": "71"
     },
     "L'OLIVERETA|SOTERNES": {
      "recibos": 22,
-     "importe": 15880.8
+     "importe": 15880.8,
+     "codigo": "72"
     },
     "L'OLIVERETA|TRES FORQUES": {
      "recibos": 10,
-     "importe": 5950.5
+     "importe": 5950.5,
+     "codigo": "73"
     },
     "LA SAIDIA|MARXALENES": {
      "recibos": 40,
-     "importe": 29295.45
+     "importe": 29295.45,
+     "codigo": "51"
     },
     "LA SAIDIA|MORVEDRE": {
      "recibos": 33,
-     "importe": 19854.37
+     "importe": 19854.37,
+     "codigo": "52"
     },
     "LA SAIDIA|SANT ANTONI": {
      "recibos": 30,
-     "importe": 20637.91
+     "importe": 20637.91,
+     "codigo": "55"
     },
     "LA SAIDIA|TORMOS": {
      "recibos": 20,
-     "importe": 11053.36
+     "importe": 11053.36,
+     "codigo": "54"
     },
     "LA SAIDIA|TRINITAT": {
      "recibos": 48,
-     "importe": 31387.09
+     "importe": 31387.09,
+     "codigo": "53"
     },
     "PATRAIX|FAVARA": {
      "recibos": 16,
-     "importe": 6148.51
+     "importe": 6148.51,
+     "codigo": "85"
     },
     "PATRAIX|PATRAIX": {
      "recibos": 87,
-     "importe": 49824.23
+     "importe": 49824.23,
+     "codigo": "81"
     },
     "PATRAIX|SAFRANAR": {
      "recibos": 28,
-     "importe": 20999.02
+     "importe": 20999.02,
+     "codigo": "84"
     },
     "PATRAIX|SANT ISIDRE": {
      "recibos": 26,
-     "importe": 14941.48
+     "importe": 14941.48,
+     "codigo": "82"
     },
     "PATRAIX|VARA DE QUART": {
      "recibos": 42,
-     "importe": 28110.33
+     "importe": 28110.33,
+     "codigo": "83"
     },
     "POBLATS MARITIMS|BETERO": {
      "recibos": 21,
-     "importe": 18074.17
+     "importe": 18074.17,
+     "codigo": "114"
     },
     "POBLATS MARITIMS|EL CABANYAL-EL CANYAMELAR": {
      "recibos": 111,
-     "importe": 71406.86
+     "importe": 71406.86,
+     "codigo": "112"
     },
     "POBLATS MARITIMS|EL GRAU": {
      "recibos": 49,
-     "importe": 28788.24
+     "importe": 28788.24,
+     "codigo": "111"
     },
     "POBLATS MARITIMS|LA MALVA-ROSA": {
      "recibos": 28,
-     "importe": 15445.98
+     "importe": 15445.98,
+     "codigo": "113"
     },
     "POBLATS MARITIMS|NATZARET": {
      "recibos": 8,
-     "importe": 3447.32
+     "importe": 3447.32,
+     "codigo": "115"
     },
     "POBLES DE L'OEST|BENIFERRI": {
      "recibos": 7,
-     "importe": 7997.31
+     "importe": 7997.31,
+     "codigo": "182"
     },
     "POBLES DE L'OEST|BENIMAMET": {
      "recibos": 20,
-     "importe": 9744.11
+     "importe": 9744.11,
+     "codigo": "181"
     },
     "POBLES DEL NORD|BENIFARAIG": {
      "recibos": 2,
-     "importe": 726.68
+     "importe": 726.68,
+     "codigo": "171"
     },
     "POBLES DEL NORD|CARPESA": {
      "recibos": 1,
-     "importe": 380.77
+     "importe": 380.77,
+     "codigo": "173"
     },
     "POBLES DEL SUD|EL CASTELLAR-L'OLIVERAL": {
      "recibos": 6,
-     "importe": 4255.79
+     "importe": 4255.79,
+     "codigo": "192"
     },
     "POBLES DEL SUD|EL FORN D'ALCEDO": {
      "recibos": 3,
-     "importe": 1588.38
+     "importe": 1588.38,
+     "codigo": "191"
     },
     "POBLES DEL SUD|EL PALMAR": {
      "recibos": 21,
-     "importe": 23507.18
+     "importe": 23507.18,
+     "codigo": "195"
     },
     "POBLES DEL SUD|EL PERELLONET": {
      "recibos": 4,
-     "importe": 1504.99
+     "importe": 1504.99,
+     "codigo": "196"
     },
     "POBLES DEL SUD|EL SALER": {
      "recibos": 10,
-     "importe": 8112.63
+     "importe": 8112.63,
+     "codigo": "194"
     },
     "POBLES DEL SUD|FAITANAR": {
      "recibos": 2,
-     "importe": 1673.33
+     "importe": 1673.33,
+     "codigo": "198"
     },
     "POBLES DEL SUD|LA TORRE": {
      "recibos": 13,
-     "importe": 8691.8
+     "importe": 8691.8,
+     "codigo": "197"
     },
     "POBLES DEL SUD|PINEDO": {
      "recibos": 9,
-     "importe": 4375.01
+     "importe": 4375.01,
+     "codigo": "193"
     },
     "QUATRE CARRERES|CIUTAT ARTS I CIÈNCIES": {
      "recibos": 29,
-     "importe": 32538.5
+     "importe": 32538.5,
+     "codigo": "107"
     },
     "QUATRE CARRERES|EN CORTS": {
      "recibos": 36,
-     "importe": 24826.91
+     "importe": 24826.91,
+     "codigo": "102"
     },
     "QUATRE CARRERES|FONTETA DE SANT LLUIS": {
      "recibos": 5,
-     "importe": 6479.81
+     "importe": 6479.81,
+     "codigo": "104"
     },
     "QUATRE CARRERES|LA PUNTA": {
      "recibos": 3,
-     "importe": 4061.93
+     "importe": 4061.93,
+     "codigo": "106"
     },
     "QUATRE CARRERES|MALILLA": {
      "recibos": 66,
-     "importe": 49568.02
+     "importe": 49568.02,
+     "codigo": "103"
     },
     "QUATRE CARRERES|MONT-OLIVET": {
      "recibos": 68,
-     "importe": 37071.39
+     "importe": 37071.39,
+     "codigo": "101"
     },
     "QUATRE CARRERES|NA ROVELLA": {
      "recibos": 10,
-     "importe": 7811.32
+     "importe": 7811.32,
+     "codigo": "105"
     },
     "RASCANYA|ELS ORRIOLS": {
      "recibos": 26,
-     "importe": 15967.31
+     "importe": 15967.31,
+     "codigo": "151"
     },
     "RASCANYA|SANT LLORENÇ": {
      "recibos": 31,
-     "importe": 28218.13
+     "importe": 28218.13,
+     "codigo": "153"
     },
     "RASCANYA|TORREFIEL": {
      "recibos": 52,
-     "importe": 24711.35
+     "importe": 24711.35,
+     "codigo": "152"
     }
+   }
+  }
+ },
+ "vulnerabilidad": {
+  "source": {
+   "dataset": "https://opendata.vlci.valencia.es/dataset/vulnerabilidad-por-barrios",
+   "url": "https://opendata.vlci.valencia.es/dataset/ca18278b-d040-4274-b9c7-c1a9daae54b9/resource/6648d1d5-4d35-410d-8260-432069045334/download/vulnerabilidad-por-barrios.csv",
+   "sha256": "73676b5bbe83dfa3ca123c802ae73a16d1ca6d959c6d9d273eccd976515a2057",
+   "bytes": 156253,
+   "license": "CC BY 4.0",
+   "year": 2021
+  },
+  "barrios": {
+   "11": {
+    "nombre": "LA SEU",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 221072
+   },
+   "12": {
+    "nombre": "LA XEREA",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 311648
+   },
+   "13": {
+    "nombre": "EL CARME",
+    "nivel": "Baja",
+    "indice": 3.2,
+    "area_m2": 384064
+   },
+   "14": {
+    "nombre": "EL PILAR",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 161607
+   },
+   "15": {
+    "nombre": "EL MERCAT",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 172793
+   },
+   "16": {
+    "nombre": "SANT FRANCESC",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 438655
+   },
+   "21": {
+    "nombre": "RUSSAFA",
+    "nivel": "Baja",
+    "indice": 3.3,
+    "area_m2": 877699
+   },
+   "22": {
+    "nombre": "EL PLA DEL REMEI",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 386915
+   },
+   "23": {
+    "nombre": "LA GRAN VIA",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 468563
+   },
+   "31": {
+    "nombre": "EL BOTANIC",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 370111
+   },
+   "32": {
+    "nombre": "LA ROQUETA",
+    "nivel": "Baja",
+    "indice": 2.7,
+    "area_m2": 230569
+   },
+   "33": {
+    "nombre": "LA PETXINA",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 496669
+   },
+   "34": {
+    "nombre": "ARRANCAPINS",
+    "nivel": "Baja",
+    "indice": 3.2,
+    "area_m2": 874368
+   },
+   "41": {
+    "nombre": "CAMPANAR",
+    "nivel": "Baja",
+    "indice": 3.7,
+    "area_m2": 988021
+   },
+   "42": {
+    "nombre": "LES TENDETES",
+    "nivel": "Baja",
+    "indice": 2.7,
+    "area_m2": 258208
+   },
+   "43": {
+    "nombre": "EL CALVARI",
+    "nivel": "Alta",
+    "indice": 1.9,
+    "area_m2": 93683
+   },
+   "44": {
+    "nombre": "SANT PAU",
+    "nivel": "Baja",
+    "indice": 3.9,
+    "area_m2": 3897813
+   },
+   "51": {
+    "nombre": "MARXALENES",
+    "nivel": "Media",
+    "indice": 2.4,
+    "area_m2": 390362
+   },
+   "52": {
+    "nombre": "MORVEDRE",
+    "nivel": "Alta",
+    "indice": 2.3,
+    "area_m2": 428184
+   },
+   "53": {
+    "nombre": "TRINITAT",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 595671
+   },
+   "54": {
+    "nombre": "TORMOS",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 279947
+   },
+   "55": {
+    "nombre": "SANT ANTONI",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 249733
+   },
+   "61": {
+    "nombre": "EXPOSICIO",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 381609
+   },
+   "62": {
+    "nombre": "MESTALLA",
+    "nivel": "Baja",
+    "indice": 3.2,
+    "area_m2": 843587
+   },
+   "63": {
+    "nombre": "JAUME ROIG",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 190797
+   },
+   "64": {
+    "nombre": "CIUTAT UNIVERSITARIA",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 276955
+   },
+   "71": {
+    "nombre": "NOU MOLES",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 739570
+   },
+   "72": {
+    "nombre": "SOTERNES",
+    "nivel": "Alta",
+    "indice": 2.2,
+    "area_m2": 224301
+   },
+   "73": {
+    "nombre": "TRES FORQUES",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 526757
+   },
+   "74": {
+    "nombre": "LA FONTSANTA",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 323030
+   },
+   "75": {
+    "nombre": "LA LLUM",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 175214
+   },
+   "81": {
+    "nombre": "PATRAIX",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 621300
+   },
+   "82": {
+    "nombre": "SANT ISIDRE",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 495220
+   },
+   "83": {
+    "nombre": "VARA DE QUART",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 1034567
+   },
+   "84": {
+    "nombre": "SAFRANAR",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 441263
+   },
+   "85": {
+    "nombre": "FAVARA",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 280247
+   },
+   "91": {
+    "nombre": "LA RAIOSA",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 375451
+   },
+   "92": {
+    "nombre": "L'HORT DE SENABRE",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 426354
+   },
+   "93": {
+    "nombre": "LA CREU COBERTA",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 374885
+   },
+   "94": {
+    "nombre": "SANT MARCEL.LI",
+    "nivel": "Media",
+    "indice": 2.4,
+    "area_m2": 330435
+   },
+   "95": {
+    "nombre": "CAMI REAL",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 1477484
+   },
+   "101": {
+    "nombre": "MONT-OLIVET",
+    "nivel": "Alta",
+    "indice": 2.3,
+    "area_m2": 473256
+   },
+   "102": {
+    "nombre": "EN CORTS",
+    "nivel": "Alta",
+    "indice": 2.2,
+    "area_m2": 364022
+   },
+   "103": {
+    "nombre": "MALILLA",
+    "nivel": "Baja",
+    "indice": 3.3,
+    "area_m2": 2507149
+   },
+   "104": {
+    "nombre": "LA FONTETA S.LLUIS",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 238826
+   },
+   "105": {
+    "nombre": "NA ROVELLA",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 540117
+   },
+   "106": {
+    "nombre": "LA PUNTA",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 6212576
+   },
+   "107": {
+    "nombre": "CIUTAT DE LES ARTS I DE LES CIENCIES",
+    "nivel": "Baja",
+    "indice": 3.4,
+    "area_m2": 989224
+   },
+   "111": {
+    "nombre": "EL GRAU",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 5227142
+   },
+   "112": {
+    "nombre": "CABANYAL-CANYAMELAR",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 1349216
+   },
+   "113": {
+    "nombre": "LA MALVA-ROSA",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 728525
+   },
+   "114": {
+    "nombre": "BETERO",
+    "nivel": "Media",
+    "indice": 2.4,
+    "area_m2": 255302
+   },
+   "115": {
+    "nombre": "NATZARET",
+    "nivel": "Baja",
+    "indice": 2.7,
+    "area_m2": 917050
+   },
+   "121": {
+    "nombre": "AIORA",
+    "nivel": "Media",
+    "indice": 2.4,
+    "area_m2": 651194
+   },
+   "122": {
+    "nombre": "ALBORS",
+    "nivel": "Baja",
+    "indice": 2.8,
+    "area_m2": 256036
+   },
+   "123": {
+    "nombre": "LA CREU DEL GRAU",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 391645
+   },
+   "124": {
+    "nombre": "CAMI FONDO",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 157187
+   },
+   "125": {
+    "nombre": "PENYA-ROJA",
+    "nivel": "Baja",
+    "indice": 3.4,
+    "area_m2": 911109
+   },
+   "131": {
+    "nombre": "L'ILLA PERDUDA",
+    "nivel": "Baja",
+    "indice": 2.6,
+    "area_m2": 231521
+   },
+   "132": {
+    "nombre": "CIUTAT JARDI",
+    "nivel": "Media",
+    "indice": 2.5,
+    "area_m2": 363930
+   },
+   "133": {
+    "nombre": "L'AMISTAT",
+    "nivel": "Media",
+    "indice": 2.4,
+    "area_m2": 207264
+   },
+   "134": {
+    "nombre": "LA VEGA BAIXA",
+    "nivel": "Baja",
+    "indice": 2.7,
+    "area_m2": 193544
+   },
+   "135": {
+    "nombre": "LA CARRASCA",
+    "nivel": "Baja",
+    "indice": 3.7,
+    "area_m2": 1962857
+   },
+   "141": {
+    "nombre": "BENIMACLET",
+    "nivel": "Baja",
+    "indice": 3.1,
+    "area_m2": 743390
+   },
+   "142": {
+    "nombre": "CAMI DE VERA",
+    "nivel": "Baja",
+    "indice": 2.9,
+    "area_m2": 827036
+   },
+   "151": {
+    "nombre": "ELS ORRIOLS",
+    "nivel": "Alta",
+    "indice": 2.3,
+    "area_m2": 396745
+   },
+   "152": {
+    "nombre": "TORREFIEL",
+    "nivel": "Baja",
+    "indice": 3.0,
+    "area_m2": 700273
+   },
+   "153": {
+    "nombre": "SANT LLORENS",
+    "nivel": "Baja",
+    "indice": 3.7,
+    "area_m2": 1532047
+   },
+   "161": {
+    "nombre": "BENICALAP",
+    "nivel": "Baja",
+    "indice": 3.4,
+    "area_m2": 1718944
+   },
+   "162": {
+    "nombre": "CIUTAT FALLERA",
+    "nivel": "Alta",
+    "indice": 2.3,
+    "area_m2": 496909
    }
   }
  }

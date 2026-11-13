@@ -76,9 +76,23 @@ class PageTests(unittest.TestCase):
         total = sum(d['recibos'] for d in years[last]['districts'].values())
         self.assertIn(f'{pv.es_int(total)} en {last}', self.page)
         rows = list(csv.reader(io.StringIO(self.csv.lstrip('﻿')), delimiter=';'))
-        self.assertEqual(sum(int(r[3]) for r in rows[1:] if r[0] == last), total)
+        self.assertEqual(sum(int(r[4]) for r in rows[1:] if r[0] == last), total)
         dataset = json.loads(re.search(r'<script type="application/ld\+json">(.*?)</script>', self.page, re.S).group(1))
-        self.assertEqual(dataset['isBasedOn'], pv.DATASET)
+        self.assertEqual(dataset['isBasedOn'], [pv.DATASET, pv.VULN_DATASET])
+
+    def test_vulnerability_join_by_code(self):
+        years, vuln = self.data['years'], self.data['vulnerabilidad']['barrios']
+        self.assertEqual(len(vuln), 70)
+        last = max(y for y, v in years.items() if v['complete'])
+        codes = {b['codigo'] for b in years[last]['barrios'].values()}
+        self.assertEqual(len(codes), len(years[last]['barrios']))
+        self.assertLessEqual(set(vuln), codes)  # los 70 barrios con índice tienen recibos y casan por código
+        outside = [b for b in years[last]['barrios'].values() if b['codigo'] not in vuln]
+        self.assertTrue(all(int(b['codigo'][:2]) >= 17 for b in outside))  # solo pedanías sin índice
+        self.assertIn('no una relación de causa', self.page)
+        self.assertEqual(pv.barrio_code('03', '4'), '34')
+        with self.assertRaises(ValueError):
+            pv.barrio_code('1', '12')
 
     def test_generated_files_match(self):
         self.assertEqual((pv.OUT / 'index.html').read_text(encoding='utf-8'), self.page)
