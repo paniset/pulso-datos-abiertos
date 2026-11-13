@@ -15,6 +15,7 @@ Código abierto de dos webs estáticas y gratuitas que convierten datos municipa
 | Madrid | [Censo de locales, sus actividades y terrazas de hostelería y restauración. Histórico](https://datos.madrid.es/dataset/209548-0-censo-locales-historico) | CC BY 4.0 |
 | Madrid | [Población por distrito y barrio a 1 de enero](https://datos.madrid.es/dataset/300557-0-poblacion-distrito-barrio) | CC BY 4.0 |
 | València | [Recibos mesas y sillas 2020 - 2025](https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025) | CC BY 4.0 |
+| València | [Vulnerabilidad por barrios 2021](https://opendata.vlci.valencia.es/dataset/vulnerabilidad-por-barrios) (índice global y superficie del barrio) | CC BY 4.0 |
 
 ## Cómo se garantiza la calidad
 - **Ficheros fijados:** cada fichero de origen queda fijado por URL, tamaño y huella SHA-256. Si la fuente cambia un fichero ya incorporado, el proceso se detiene en lugar de publicar datos distintos.
