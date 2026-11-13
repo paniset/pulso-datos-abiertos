@@ -368,7 +368,7 @@ def render(data):
 <h2>Cómo leer estos datos</h2>
 <p>Cada fila del conjunto municipal da, por barrio y año, el número de recibos emitidos de la tasa por mesas y sillas y su importe. El importe es lo facturado en recibos, no lo cobrado. El reparto por tipo de titular (persona física, jurídica o sin personalidad) se muestra solo por distrito.</p>
 {mismatch_note}<p>En barrios con menos de {MIN_AMOUNT_RECEIPTS} recibos no se muestra el importe (—), porque se acercaría al de un solo titular.</p><p>Un barrio que no aparece en un año se cuenta con 0 recibos. La variación entre años puede deberse a altas y bajas de licencias, a cambios en la tasa o a correcciones administrativas. Esta página no interpreta la ordenanza municipal.</p>
-<p><a href="{CSV_NAME}">Descargar los datos por barrio y año en CSV</a> · <a href="https://paniset.github.io/pulso-local-madrid/">Pulso Local Madrid: el registro de terrazas de Madrid</a></p>
+<p><a href="{CSV_NAME}">Descargar los datos por barrio y año en CSV</a> · <a href="reutilizar-datos">Cómo reutilizar estos datos</a> · <a href="https://paniset.github.io/pulso-local-madrid/">Pulso Local Madrid: el registro de terrazas de Madrid</a></p>
 <h2>Procedencia y licencia</h2><p>Ajuntament de València, <a href="{DATASET}">Recibos mesas y sillas 2020 - 2025</a>, portal de datos abiertos, licencia <a href="{LICENSE_DEED}">CC BY 4.0</a>. Fichero fijado por su huella SHA-256 ({RAW_SHA256[:12]}…).{f' Vulnerabilidad y superficie: <a href="{VULN_DATASET}">Vulnerabilidad por barrios 2021</a>, licencia CC BY 4.0 (huella {VULN_SHA256[:12]}…).' if V else ''} Solo se publican agregados.</p>
 <footer><p><a href="../">Todas las herramientas</a> · <a href="../acerca">Acerca de</a> · <a href="https://github.com/paniset/pulso-datos-abiertos">Código abierto (MIT) en GitHub</a></p></footer></main></body></html>'''
     page = page_metadata(page, canonical=ORIGIN, social=True)
@@ -396,8 +396,11 @@ def build(data=None):
     data = data or load()
     OUT.mkdir(parents=True, exist_ok=True)
     (OUT / 'index.html').write_text(render(data), encoding='utf-8')
-    (OUT / CSV_NAME).write_text(render_csv(data), encoding='utf-8', newline='')
-    (OUT / 'style.css').write_text(CSS, encoding='utf-8')
+    csv_text = render_csv(data)
+    (OUT / CSV_NAME).write_text(csv_text, encoding='utf-8', newline='')
+    import pulso_reutilizar
+    (OUT / pulso_reutilizar.PAGE).write_text(pulso_reutilizar.render(csv_text), encoding='utf-8')
+    (OUT / 'style.css').write_text(CSS + pulso_reutilizar.EXTRA_CSS + '\n', encoding='utf-8')
     return sorted(p.name for p in OUT.iterdir())
 
 

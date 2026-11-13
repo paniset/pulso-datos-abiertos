@@ -94,6 +94,23 @@ class PageTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             pv.barrio_code('1', '12')
 
+    def test_reuse_page_documents_every_column(self):
+        from scripts import pulso_reutilizar as pr
+        page = pr.render(self.csv)
+        rows = pr.catalog(self.csv.encode('utf-8'))
+        self.assertEqual(len(rows), 6)
+        for *_, cols in rows:
+            for col in cols:
+                self.assertIn(f'<code>{col}</code>', page)
+        self.assertIn('<link rel="canonical" href="https://paniset.github.io/pulso-valencia/reutilizar-datos">', page)
+        self.assertIn('CC BY 4.0', page)
+        self.assertNotRegex(page, r'\son[a-z]+=|style=|<style')
+        self.assertEqual(page.count('<h1>'), 1)
+        with self.assertRaises(ValueError):
+            pr.render(self.csv.replace('anio;', 'columna_nueva;', 1))
+        self.assertIn('href="reutilizar-datos"', self.page)
+        self.assertEqual((pv.OUT / pr.PAGE).read_text(encoding='utf-8'), page)
+
     def test_generated_files_match(self):
         self.assertEqual((pv.OUT / 'index.html').read_text(encoding='utf-8'), self.page)
 
