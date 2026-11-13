@@ -1,0 +1,384 @@
+﻿anio;distrito;barrio;recibos;importe_eur;anio_completo;fuente;licencia
+2020;Algirós;Ciutat Jardí;141;117882,40;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Algirós;L'Amistat;46;31084,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Algirós;L'Illa Perduda;37;22420,12;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Algirós;La Carrasca;19;16468,18;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Algirós;La Vega Baixa;70;38995,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Benicalap;Benicalap;135;111045,45;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Benicalap;Ciutat Fallera;8;6595,73;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Benimaclet;Benimaclet;121;86378,92;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Benimaclet;Cami de Vera;15;9523,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Camins al Grau;Aiora;61;33178,75;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Camins al Grau;Albors;32;20072,16;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Camins al Grau;Cami Fondo;16;7061,08;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Camins al Grau;La Creu del Grau;46;28631,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Camins al Grau;Penya-Roja;88;156047,60;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Campanar;Campanar;60;51763,84;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Campanar;El Calvari;27;11444,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Campanar;Les Tendetes;17;12285,66;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Campanar;Sant Pau;52;51278,67;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;El Carme;65;26866,55;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;El Mercat;77;54101,20;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;El Pilar;28;15715,81;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;La Seu;91;90482,68;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;La Xerea;47;42521,14;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Ciutat Vella;Sant Francesc;163;191493,43;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;El Pla del Real;Ciutat Universitaria;18;12924,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;El Pla del Real;Exposicio;54;52646,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;El Pla del Real;Jaume Roig;20;14796,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;El Pla del Real;Mestalla;130;120529,10;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Extramurs;Arrancapins;156;82165,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Extramurs;El Botanic;25;11227,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Extramurs;La Petxina;76;33565,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Extramurs;La Roqueta;36;18333,10;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Jesús;Cami Real;4;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Jesús;L'Hort de Senabre;67;36554,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Jesús;La Creu Coberta;17;9296,71;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Jesús;La Raiosa;37;16310,81;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Jesús;Sant Marcel.li;22;12951,93;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Eixample;El Pla del Remei;51;48693,39;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Eixample;Gran Via;204;120149,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Eixample;Russafa;246;104908,17;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Olivereta;La Fontsanta;14;11852,12;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Olivereta;La Llum;20;12352,96;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Olivereta;Nou Moles;66;36609,31;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Olivereta;Soternes;19;14973,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;L'Olivereta;Tres Forques;10;6856,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;La Saïdia;Marxalenes;45;29493,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;La Saïdia;Morvedre;33;16119,70;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;La Saïdia;Sant Antoni;31;19949,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;La Saïdia;Tormos;22;10210,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;La Saïdia;Trinitat;52;34451,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Patraix;Favara;19;7777,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Patraix;Patraix;89;46547,92;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Patraix;Safranar;22;14657,77;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Patraix;Sant Isidre;29;15957,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Patraix;Vara de Quart;52;33125,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Poblats Marítims;Betero;24;21097,91;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Poblats Marítims;El Cabanyal-El Canyamelar;79;42652,47;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Poblats Marítims;El Grau;43;24597,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Poblats Marítims;La Malva-Rosa;26;14375,67;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Poblats Marítims;Natzaret;9;3769,45;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles de l'Oest;Beniferri;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles de l'Oest;Benimamet;20;6909,43;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Benifaraig;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Borboto;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Carpesa;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Les Cases de Barcena;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Massarrojos;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Mauella;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Nord;Poble Nou;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;El castellar-l'Oliveral;5;2928,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;El Forn d'Alcedo;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;El Palmar;22;19708,56;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;El Perellonet;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;El Saler;11;11461,39;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;Faitanar;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;La Torre;13;8593,98;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Pobles del Sud;Pinedo;8;4222,71;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;Ciutat Arts i Ciències;28;25341,45;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;En Corts;42;25529,36;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;Fonteta de Sant Lluis;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;La Punta;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;Malilla;64;39578,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;Mont-Olivet;63;34607,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Quatre Carreres;Na Rovella;14;8036,82;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Rascanya;Els Orriols;27;17690,75;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Rascanya;Sant Llorenç;34;26282,53;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2020;Rascanya;Torrefiel;55;26458,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Algirós;Ciutat Jardí;124;105089,07;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Algirós;L'Amistat;47;32012,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Algirós;L'Illa Perduda;33;21113,67;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Algirós;La Carrasca;13;11786,49;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Algirós;La Vega Baixa;64;34503,14;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Benicalap;Benicalap;131;111624,82;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Benicalap;Ciutat Fallera;7;7164,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Benimaclet;Benimaclet;110;78954,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Benimaclet;Cami de Vera;14;9731,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Camins al Grau;Aiora;59;33630,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Camins al Grau;Albors;30;20412,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Camins al Grau;Cami Fondo;17;7206,64;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Camins al Grau;La Creu del Grau;40;24285,42;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Camins al Grau;Penya-Roja;85;157369,24;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Campanar;Campanar;58;51964,47;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Campanar;El Calvari;22;9213,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Campanar;Les Tendetes;17;12623,04;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Campanar;Sant Pau;46;44621,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;El Carme;54;21143,03;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;El Mercat;66;44805,52;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;El Pilar;24;15110,31;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;La Seu;80;77154,75;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;La Xerea;43;39181,35;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Ciutat Vella;Sant Francesc;143;174368,31;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;El Pla del Real;Ciutat Universitaria;7;6696,41;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;El Pla del Real;Exposicio;52;50159,40;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;El Pla del Real;Jaume Roig;20;15358,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;El Pla del Real;Mestalla;124;107613,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Extramurs;Arrancapins;154;83754,79;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Extramurs;El Botanic;27;12745,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Extramurs;La Petxina;75;32066,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Extramurs;La Roqueta;35;15821,25;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Jesús;Cami Real;5;3182,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Jesús;L'Hort de Senabre;57;32720,43;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Jesús;La Creu Coberta;16;8152,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Jesús;La Raiosa;32;15260,60;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Jesús;Sant Marcel.li;18;11042,38;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Eixample;El Pla del Remei;55;50106,57;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Eixample;Gran Via;201;114326,24;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Eixample;Russafa;240;98681,26;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Olivereta;La Fontsanta;9;6870,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Olivereta;La Llum;18;10930,96;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Olivereta;Nou Moles;62;36090,16;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Olivereta;Soternes;18;14224,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;L'Olivereta;Tres Forques;10;5936,74;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;La Saïdia;Marxalenes;41;27881,83;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;La Saïdia;Morvedre;34;18236,20;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;La Saïdia;Sant Antoni;30;19837,42;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;La Saïdia;Tormos;21;9851,04;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;La Saïdia;Trinitat;50;30531,36;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Patraix;Favara;17;7079,04;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Patraix;Patraix;82;45533,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Patraix;Safranar;24;16492,48;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Patraix;Sant Isidre;27;14312,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Patraix;Vara de Quart;40;21973,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Poblats Marítims;Betero;22;20058,55;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Poblats Marítims;El Cabanyal-El Canyamelar;77;45421,88;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Poblats Marítims;El Grau;42;22840,65;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Poblats Marítims;La Malva-Rosa;25;12578,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Poblats Marítims;Natzaret;8;3096,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles de l'Oest;Beniferri;5;5809,07;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles de l'Oest;Benimamet;21;7201,74;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Benifaraig;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Borboto;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Carpesa;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Les Cases de Barcena;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Massarrojos;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Mauella;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Nord;Poble Nou;0;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;El castellar-l'Oliveral;6;3288,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;El Forn d'Alcedo;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;El Palmar;22;21720,19;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;El Perellonet;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;El Saler;10;8105,85;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;Faitanar;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;La Torre;15;9326,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Pobles del Sud;Pinedo;8;4222,71;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;Ciutat Arts i Ciències;26;29809,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;En Corts;38;23679,71;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;Fonteta de Sant Lluis;4;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;La Punta;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;Malilla;52;34047,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;Mont-Olivet;65;35798,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Quatre Carreres;Na Rovella;12;7182,73;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Rascanya;Els Orriols;25;16164,17;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Rascanya;Sant Llorenç;25;19059,40;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2022;Rascanya;Torrefiel;48;23824,28;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Eixample;El Pla del Remei;58;50911,26;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Eixample;Gran Via;202;114438,41;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Eixample;Russafa;246;101248,10;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Olivereta;La Fontsanta;9;6870,80;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Olivereta;La Llum;18;10930,96;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Olivereta;Nou Moles;66;38839,89;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Olivereta;Soternes;19;15295,73;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;L'Olivereta;Tres Forques;9;5641,50;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;La Saïdia;Marxalenes;40;28082,15;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;La Saïdia;Morvedre;35;19098,66;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;La Saïdia;Sant Antoni;31;19659,04;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;La Saïdia;Tormos;21;9851,04;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;La Saïdia;Trinitat;49;30012,16;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Patraix;Favara;17;6854,39;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Patraix;Patraix;82;46421,19;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Patraix;Safranar;24;15941,53;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Patraix;Sant Isidre;26;14058,08;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Patraix;Vara de Quart;39;22157,74;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Poblats Marítims;Betero;22;19876,66;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Poblats Marítims;El Cabanyal-El Canyamelar;80;47490,87;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Poblats Marítims;El Grau;48;25425,17;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Poblats Marítims;La Malva-Rosa;25;14192,09;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Poblats Marítims;Natzaret;6;2746,72;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles de l'Oest;Beniferri;5;5809,07;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles de l'Oest;Benimamet;22;8986,97;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Nord;Benifaraig;2;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Nord;Carpesa;1;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;El castellar-l'Oliveral;6;3288,05;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;El Forn d'Alcedo;2;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;El Palmar;22;22115,60;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;El Perellonet;2;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;El Saler;10;8105,85;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;Faitanar;2;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;La Torre;14;8949,26;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Pobles del Sud;Pinedo;8;4222,71;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;Ciutat Arts i Ciències;25;29008,50;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;En Corts;37;23652,89;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;Fonteta de Sant Lluis;4;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;La Punta;1;;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;Malilla;54;34846,38;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;Mont-Olivet;65;33538,61;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Quatre Carreres;Na Rovella;11;6708,24;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Rascanya;Els Orriols;26;16201,35;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Rascanya;Sant Llorenç;29;23416,27;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2023;Rascanya;Torrefiel;48;23208,60;no;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Algirós;Ciutat Jardí;123;80037,93;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Algirós;L'Amistat;45;30486,14;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Algirós;L'Illa Perduda;32;20543,98;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Algirós;La Carrasca;11;9954,70;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Algirós;La Vega Baixa;62;34084,33;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Benicalap;Benicalap;138;117452,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Benicalap;Ciutat Fallera;9;6972,17;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Benimaclet;Benimaclet;132;89144,74;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Benimaclet;Cami de Vera;16;12349,26;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Camins al Grau;Aiora;66;37440,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Camins al Grau;Albors;30;20808,48;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Camins al Grau;Cami Fondo;16;7018,98;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Camins al Grau;La Creu del Grau;42;26367,04;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Camins al Grau;Penya-Roja;87;160538,11;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Campanar;Campanar;64;56186,18;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Campanar;El Calvari;24;9903,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Campanar;Les Tendetes;17;12301,72;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Campanar;Sant Pau;48;50172,23;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;El Carme;56;23423,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;El Mercat;70;46988,76;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;El Pilar;22;13977,38;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;La Seu;77;67903,79;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;La Xerea;46;38152,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Ciutat Vella;Sant Francesc;151;179132,91;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;El Pla del Real;Ciutat Universitaria;7;6021,66;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;El Pla del Real;Exposicio;54;51614,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;El Pla del Real;Jaume Roig;23;17017,52;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;El Pla del Real;Mestalla;135;112893,08;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Extramurs;Arrancapins;161;87785,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Extramurs;El Botanic;32;15013,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Extramurs;La Petxina;77;32592,09;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Extramurs;La Roqueta;37;19164,47;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Jesús;Cami Real;4;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Jesús;L'Hort de Senabre;62;36279,43;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Jesús;La Creu Coberta;15;7831,09;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Jesús;La Raiosa;34;15049,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Jesús;Sant Marcel.li;18;10446,29;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Eixample;El Pla del Remei;67;52341,21;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Eixample;Gran Via;205;114534,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Eixample;Russafa;264;103680,90;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Olivereta;La Fontsanta;9;7029,26;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Olivereta;La Llum;18;11720,03;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Olivereta;Nou Moles;70;40337,38;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Olivereta;Soternes;21;15835,11;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;L'Olivereta;Tres Forques;9;5641,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;La Saïdia;Marxalenes;40;27529,56;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;La Saïdia;Morvedre;33;19301,08;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;La Saïdia;Sant Antoni;31;19822,48;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;La Saïdia;Tormos;20;8874,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;La Saïdia;Trinitat;48;30700,83;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Patraix;Favara;17;6461,90;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Patraix;Patraix;86;49182,20;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Patraix;Safranar;26;18909,18;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Patraix;Sant Isidre;26;14162,95;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Patraix;Vara de Quart;41;24816,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Poblats Marítims;Betero;20;16718,64;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Poblats Marítims;El Cabanyal-El Canyamelar;101;61826,52;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Poblats Marítims;El Grau;52;29219,96;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Poblats Marítims;La Malva-Rosa;28;16956,47;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Poblats Marítims;Natzaret;8;3215,34;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles de l'Oest;Beniferri;6;7226,99;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles de l'Oest;Benimamet;21;9163,29;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Nord;Benifaraig;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Nord;Carpesa;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;El castellar-l'Oliveral;6;3288,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;El Forn d'Alcedo;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;El Palmar;22;25056,61;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;El Perellonet;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;El Saler;10;8105,85;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;Faitanar;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;La Torre;13;8691,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Pobles del Sud;Pinedo;9;4375,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;Ciutat Arts i Ciències;27;30609,18;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;En Corts;38;24822,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;Fonteta de Sant Lluis;5;6479,81;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;La Punta;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;Malilla;59;41082,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;Mont-Olivet;66;34812,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Quatre Carreres;Na Rovella;10;7258,90;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Rascanya;Els Orriols;27;16232,10;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Rascanya;Sant Llorenç;32;26129,10;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2024;Rascanya;Torrefiel;50;23666,61;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Algirós;Ciutat Jardí;121;81548,82;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Algirós;L'Amistat;45;30625,75;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Algirós;L'Illa Perduda;32;19858,20;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Algirós;La Carrasca;10;8537,46;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Algirós;La Vega Baixa;60;32981,41;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Benicalap;Benicalap;146;127417,98;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Benicalap;Ciutat Fallera;8;6591,40;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Benimaclet;Benimaclet;134;93065,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Benimaclet;Cami de Vera;16;13214,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Camins al Grau;Aiora;68;39776,38;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Camins al Grau;Albors;32;21989,44;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Camins al Grau;Cami Fondo;16;7108,90;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Camins al Grau;La Creu del Grau;42;26644,66;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Camins al Grau;Penya-Roja;90;144641,45;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Campanar;Campanar;61;53172,54;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Campanar;El Calvari;22;9573,71;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Campanar;Les Tendetes;16;12439,68;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Campanar;Sant Pau;47;50212,55;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;El Carme;55;22824,22;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;El Mercat;73;48106,12;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;El Pilar;21;13052,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;La Seu;77;64686,42;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;La Xerea;47;41914,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Ciutat Vella;Sant Francesc;157;190212,53;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;El Pla del Real;Ciutat Universitaria;7;6013,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;El Pla del Real;Exposicio;55;52544,19;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;El Pla del Real;Jaume Roig;23;17067,76;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;El Pla del Real;Mestalla;128;110409,78;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Extramurs;Arrancapins;160;92105,16;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Extramurs;El Botanic;34;15369,46;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Extramurs;La Petxina;79;33034,83;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Extramurs;La Roqueta;37;19013,33;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Jesús;Cami Real;4;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Jesús;L'Hort de Senabre;63;39235,94;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Jesús;La Creu Coberta;15;8507,69;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Jesús;La Raiosa;34;14897,05;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Jesús;Sant Marcel.li;17;11048,35;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Eixample;El Pla del Remei;66;49689,15;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Eixample;Gran Via;205;110862,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Eixample;Russafa;272;104525,06;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Olivereta;La Fontsanta;8;6098,73;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Olivereta;La Llum;17;11896,36;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Olivereta;Nou Moles;70;39193,60;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Olivereta;Soternes;22;15880,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;L'Olivereta;Tres Forques;10;5950,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;La Saïdia;Marxalenes;40;29295,45;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;La Saïdia;Morvedre;33;19854,37;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;La Saïdia;Sant Antoni;30;20637,91;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;La Saïdia;Tormos;20;11053,36;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;La Saïdia;Trinitat;48;31387,09;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Patraix;Favara;16;6148,51;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Patraix;Patraix;87;49824,23;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Patraix;Safranar;28;20999,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Patraix;Sant Isidre;26;14941,48;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Patraix;Vara de Quart;42;28110,33;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Poblats Marítims;Betero;21;18074,17;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Poblats Marítims;El Cabanyal-El Canyamelar;111;71406,86;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Poblats Marítims;El Grau;49;28788,24;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Poblats Marítims;La Malva-Rosa;28;15445,98;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Poblats Marítims;Natzaret;8;3447,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles de l'Oest;Beniferri;7;7997,31;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles de l'Oest;Benimamet;20;9744,11;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Nord;Benifaraig;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Nord;Carpesa;1;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;El castellar-l'Oliveral;6;4255,79;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;El Forn d'Alcedo;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;El Palmar;21;23507,18;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;El Perellonet;4;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;El Saler;10;8112,63;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;Faitanar;2;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;La Torre;13;8691,80;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Pobles del Sud;Pinedo;9;4375,01;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;Ciutat Arts i Ciències;29;32538,50;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;En Corts;36;24826,91;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;Fonteta de Sant Lluis;5;6479,81;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;La Punta;3;;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;Malilla;66;49568,02;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;Mont-Olivet;68;37071,39;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Quatre Carreres;Na Rovella;10;7811,32;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Rascanya;Els Orriols;26;15967,31;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Rascanya;Sant Llorenç;31;28218,13;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0
+2025;Rascanya;Torrefiel;52;24711,35;sí;https://opendata.vlci.valencia.es/dataset/recibos-mesas-y-sillas-2020-2025;CC BY 4.0

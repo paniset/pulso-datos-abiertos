@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Cómo leer el censo de terrazas de Madrid: qué significa cada cambio del registro | Pulso Local</title><meta name="description" content="Qué es el censo de terrazas de Madrid, qué significa que una terraza aparezca, deje de aparecer o cambie de estado entre dos cortes y cómo consultar si tiene licencia."><meta name="theme-color" content="#164c63"><link rel="canonical" href="https://paniset.github.io/pulso-local-madrid/como-leer-censo-terrazas-madrid"><link rel="stylesheet" href="style.css"><link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Cómo leer el censo de terrazas de Madrid: qué significa cada cambio del registro","description":"Qué es el censo de terrazas de Madrid, qué significa cada diferencia entre dos cortes del registro y por qué no prueba aperturas, cierres ni licencias vigentes.","inLanguage":"es","datePublished":"2026-11-13","dateModified":"2026-11-13","author":{"@type":"Organization","name":"Pulso Local","url":"https://paniset.github.io/pulso-local-madrid/"},"publisher":{"@type":"Organization","name":"Pulso Local","url":"https://paniset.github.io/pulso-local-madrid/"},"mainEntityOfPage":"https://paniset.github.io/pulso-local-madrid/como-leer-censo-terrazas-madrid","isBasedOn":"https://datos.madrid.es/dataset/209548-0-censo-locales-historico"}</script><script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Pulso Local","item":"https://paniset.github.io/pulso-local-madrid/"},{"@type":"ListItem","position":2,"name":"Cómo leer el censo de terrazas","item":"https://paniset.github.io/pulso-local-madrid/como-leer-censo-terrazas-madrid"}]}</script></head>
+<body><a class="skip" href="#contenido">Ir al contenido</a><header class="top"><a class="brand" href="./" aria-label="Pulso Local, inicio"><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><path d="M3 24V11l8-5v18M14 24V15l7-5v14M24 24V4h5v20" fill="none" stroke="currentColor" stroke-width="3"/></svg>Pulso Local<span>Madrid</span></a><nav aria-label="Principal"><a href="./#radar">Explorar cambios</a><a href="terrazas-madrid-por-distrito">Por distrito</a><a href="muestra">Informe gratuito y CSV</a></nav></header>
+<main id="contenido" class="guide">
+<nav aria-label="Ruta"><p class="crumbs"><a href="./">Pulso Local</a> › Cómo leer el censo de terrazas</p></nav>
+<article>
+<p class="edition">Guía · Terrazas de Madrid</p>
+<h1>Cómo leer el censo de terrazas de Madrid: qué significa cada cambio del registro</h1>
+<p class="small">Actualizado el <time datetime="2026-11-13">13 de noviembre de 2026</time></p>
+<p class="lead">El Ayuntamiento de Madrid publica en datos abiertos el registro de terrazas de hostelería. Comparar dos versiones de ese registro dice qué ha cambiado en los datos, no qué ha pasado en la calle. Esta guía explica qué contiene la fuente, cómo se comparan los cortes y qué conclusiones aguanta cada tipo de cambio.</p>
+<p><a class="button" href="./#radar">Explorar los cambios por distrito</a></p>
+
+<h2>Qué es el Censo de locales y actividades</h2>
+<p>Es un conjunto de datos abiertos del Ayuntamiento de Madrid, publicado en datos.madrid.es como <a href="https://datos.madrid.es/dataset/209548-0-censo-locales-historico">«Censo de locales y actividades, histórico»</a>. Recoge locales de la ciudad y, en ficheros propios, las terrazas de hostelería vinculadas a ellos. Se reutiliza con <a href="https://creativecommons.org/licenses/by/4.0/deed.es">licencia CC BY 4.0</a>: puedes copiar y transformar los datos siempre que cites al Ayuntamiento de Madrid como fuente.</p>
+<p>Cada fichero de terrazas es una tabla con una fila por terraza. Pulso Local solo usa estas columnas:</p>
+<ul>
+<li><code>id_terraza</code>: identificador administrativo de la terraza; permite seguirla de un fichero a otro.</li>
+<li><code>id_local</code>: identificador del local al que está vinculada.</li>
+<li><code>desc_distrito_local</code> y <code>desc_barrio_local</code>: distrito y barrio del local.</li>
+<li><code>desc_situacion_terraza</code> y <code>desc_situacion_local</code>: situación administrativa de la terraza y del local, tal como la anota la fuente.</li>
+<li><code>desc_periodo_terraza</code>: periodo de la terraza que figura en el registro.</li>
+<li><code>fx_carga</code>: fecha de carga del fichero.</li>
+</ul>
+<p>Un estado como «Abierto» es un valor del registro, no una comprobación hecha sobre el terreno.</p>
+
+<h2>Qué es un corte</h2>
+<p>Un corte es una versión del registro con una fecha de carga concreta: la foto de lo que contenía la base municipal ese día. El portal publica ficheros de terrazas identificados por mes, por ejemplo «Terrazas. Octubre 2026». Pulso Local toma dos cortes, el inicial y el final, y compara sus identificadores de terraza.</p>
+<p>La fecha de carga indica cuándo se generó el fichero, no cuándo ocurrió cada cambio. Si una terraza difiere entre dos cortes, solo sabes que la diferencia quedó anotada entre ambos o que se corrigió un dato anterior. Las fechas de los dos cortes de la comparación vigente figuran en el <a href="./#resumen">resumen de la portada</a>.</p>
+
+<h2>Qué significa cada tipo de cambio</h2>
+<p>Pulso Local clasifica cada diferencia en uno de estos tipos:</p>
+<ul>
+<li><strong>Presente solo en el corte final</strong>: el identificador de la terraza figura en el corte final y no en el inicial. Puede corresponder a un expediente que se ha incorporado al registro, a una corrección o a una reclasificación.</li>
+<li><strong>Ausente en el corte final</strong>: el identificador estaba en el corte inicial y ya no figura en el final. Puede ser una baja administrativa, un cambio de identificador o una depuración de datos.</li>
+<li><strong>Cambio de estado, periodo o zona</strong>: la terraza está en los dos cortes, pero cambia su situación, su periodo, el local vinculado o el barrio. Puede reflejar un trámite, pero también la corrección de un campo.</li>
+</ul>
+<p>Si una terraza está en los dos cortes con los mismos valores, no aparece en la comparación.</p>
+
+<h2>Por qué un cambio del registro no prueba aperturas, cierres ni licencias</h2>
+<p>El registro es administrativo. Entre lo que ocurre en la calle y lo que recoge el fichero hay trámites, plazos de anotación y correcciones. Por eso:</p>
+<ul>
+<li>Una terraza que aparece en el corte final no es una apertura confirmada: puede llevar tiempo funcionando y haberse incorporado o corregido ahora.</li>
+<li>Una terraza que deja de aparecer no es un cierre confirmado: puede haber cambiado de identificador o de clasificación.</li>
+<li>Que una terraza figure en el registro no acredita que tenga hoy una autorización vigente ni cuáles son sus condiciones. Pulso Local no compara mesas, superficies ni permisos.</li>
+</ul>
+<p>El registro, por sí solo, no basta para afirmar que un local ha abierto o cerrado. Hace falta otra comprobación: ver el local, preguntar en él o consultar al Ayuntamiento.</p>
+
+<h2>Limitaciones conocidas</h2>
+<p>Notas de cobertura de los datos que publica Pulso Local:</p>
+<ul>
+<li><strong>Cobertura</strong>: solo registros de terrazas de hostelería de Madrid. No cubre todos los locales de la ciudad.</li>
+<li><strong>Fechas</strong>: se toman de la columna <code>fx_carga</code> de cada fichero y no son fechas de cambios individuales.</li>
+<li><strong>Campos comparados</strong>: los cambios de estado incluyen periodo, local vinculado y barrio. No se comparan mesas, superficies ni permisos.</li>
+<li><strong>Privacidad</strong>: sin rótulos, nombres, contactos, direcciones exactas ni coordenadas. Solo identificadores administrativos y zonas.</li>
+<li><strong>Selección</strong>: si no se publican todas las diferencias, se toman los primeros identificadores numéricos, sin priorización comercial ni muestreo estadístico; la portada indica cuántas se publican.</li>
+</ul>
+<p>Antes de comparar, Pulso Local comprueba que la fecha de carga de cada fichero es la esperada y que ningún identificador de terraza se repite con valores distintos; si un fichero falla, la comparación no se publica. Las cifras por distrito suelen ser pequeñas: sirven para orientarse, no para medir la actividad hostelera ni estimar demanda. Ante cualquier duda, manda el fichero oficial.</p>
+
+<h2>¿Cómo saber si una terraza concreta tiene licencia?</h2>
+<p>Pulso Local no lo dice. Solo compara dos cortes del registro y no comprueba licencias ni su vigencia. Además, como no publica nombres ni direcciones, no sirve para localizar el establecimiento de una calle concreta.</p>
+<p>Para un caso concreto, las vías generales son:</p>
+<ul>
+<li>la sede electrónica del Ayuntamiento de Madrid;</li>
+<li>la junta municipal del distrito en el que está el local;</li>
+<li>el <a href="https://datos.madrid.es/dataset/209548-0-censo-locales-historico">conjunto de datos de origen</a>: en el fichero de terrazas más reciente puedes buscar la terraza por su <code>id_terraza</code> y ver su situación y su periodo en el registro.</li>
+</ul>
+<p>Esa fila es un dato administrativo de un corte, no un certificado de autorización. Esta guía es orientativa y no es asesoramiento legal: para un caso concreto, la respuesta válida es la del Ayuntamiento.</p>
+
+<h2>Cómo usar Pulso Local para revisar una zona</h2>
+<ol>
+<li>En la <a href="./">portada</a>, lee el resumen: fechas de los dos cortes, cambios de cada tipo y distritos con más cambios.</li>
+<li>En la <a href="terrazas-madrid-por-distrito">tabla de terrazas de Madrid por distrito</a>, mira cuántos cambios de cada tipo hay en tu distrito.</li>
+<li>En el <a href="./#radar">radar</a>, filtra por distrito y tipo de cambio, busca un barrio o un identificador y revisa el estado anterior y el posterior.</li>
+<li>Exporta tu selección en CSV o abre el <a href="muestra">informe gratuito con todos los registros publicados</a>.</li>
+<li>Antes de sacar conclusiones, contrasta los identificadores que te interesen con el fichero oficial.</li>
+</ol>
+<p class="small">Fuente: Ayuntamiento de Madrid, Censo de locales y actividades, histórico (CC BY 4.0). Pulso Local compara los datos; no es un servicio municipal.</p>
+</article></main>
+<footer><div class="brand">Pulso Local</div><p>Datos públicos. Interpretación prudente.</p><a href="legal">Privacidad y condiciones</a><a href="data/radar.json" download>Descargar datos publicados</a><nav class="otras" aria-label="Otras herramientas gratuitas">Otras herramientas gratuitas: <a href="https://paniset.github.io/turno-facil/">Turno Fácil: reparto de tareas de casa por turnos</a> · <a href="https://paniset.github.io/kit-de-vuelta/">Kit de Vuelta: control de préstamo y devolución de material</a></nav></footer></body></html>

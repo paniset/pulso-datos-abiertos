@@ -1,0 +1,561 @@
+{
+  "source": {
+    "url": "https://datos.madrid.es/dataset/300557-0-poblacion-distrito-barrio/resource/300557-0-poblacion-distrito-barrio-csv/download/300557-0-poblacion-distrito-barrio-csv.csv",
+    "dataset": "https://datos.madrid.es/dataset/300557-0-poblacion-distrito-barrio",
+    "resource_id": "300557-0-poblacion-distrito-barrio-csv",
+    "description": "Población por distrito y barrio a 1 de enero",
+    "date": "2026-01-01",
+    "sha256": "86370f0591d5cdad33e7b85b34c26eeac60b87387b8dad908ec63c21c9011835",
+    "bytes": 98652,
+    "neighborhoods": 131
+  },
+  "districts": {
+    "ARGANZUELA": 158550,
+    "BARAJAS": 50613,
+    "CARABANCHEL": 278090,
+    "CENTRO": 141800,
+    "CHAMARTIN": 148093,
+    "CHAMBERI": 141522,
+    "CIUDAD LINEAL": 230334,
+    "FUENCARRAL-EL PARDO": 256037,
+    "HORTALEZA": 209178,
+    "LATINA": 251139,
+    "MONCLOA-ARAVACA": 126257,
+    "MORATALAZ": 94405,
+    "PUENTE DE VALLECAS": 257924,
+    "RETIRO": 118863,
+    "SALAMANCA": 147256,
+    "SAN BLAS-CANILLEJAS": 168526,
+    "TETUAN": 167776,
+    "USERA": 152937,
+    "VICALVARO": 97860,
+    "VILLA DE VALLECAS": 127566,
+    "VILLAVERDE": 172551
+  },
+  "barrios": {
+    "ARGANZUELA|ACACIAS": {
+      "name": "Acacias",
+      "population": 36069
+    },
+    "ARGANZUELA|ATOCHA": {
+      "name": "Atocha",
+      "population": 2939
+    },
+    "ARGANZUELA|CHOPERA": {
+      "name": "Chopera",
+      "population": 20366
+    },
+    "ARGANZUELA|DELICIAS": {
+      "name": "Delicias",
+      "population": 29210
+    },
+    "ARGANZUELA|IMPERIAL": {
+      "name": "Imperial",
+      "population": 24313
+    },
+    "ARGANZUELA|LEGAZPI": {
+      "name": "Legazpi",
+      "population": 19916
+    },
+    "ARGANZUELA|PALOS DE LA FRONTERA": {
+      "name": "Palos de la Frontera",
+      "population": 25737
+    },
+    "BARAJAS|AEROPUERTO": {
+      "name": "Aeropuerto",
+      "population": 1928
+    },
+    "BARAJAS|ALAMEDA DE OSUNA": {
+      "name": "Alameda de Osuna",
+      "population": 20023
+    },
+    "BARAJAS|CASCO HISTORICO DE BARAJAS": {
+      "name": "Casco Histórico de Barajas",
+      "population": 8600
+    },
+    "BARAJAS|CORRALEJOS": {
+      "name": "Corralejos",
+      "population": 7661
+    },
+    "BARAJAS|TIMON": {
+      "name": "Timón",
+      "population": 12401
+    },
+    "CARABANCHEL|ABRANTES": {
+      "name": "Abrantes",
+      "population": 33425
+    },
+    "CARABANCHEL|BUENAVISTA": {
+      "name": "Buenavista",
+      "population": 52523
+    },
+    "CARABANCHEL|COMILLAS": {
+      "name": "Comillas",
+      "population": 24009
+    },
+    "CARABANCHEL|OPANEL": {
+      "name": "Opañel",
+      "population": 35843
+    },
+    "CARABANCHEL|PUERTA BONITA": {
+      "name": "Puerta Bonita",
+      "population": 39269
+    },
+    "CARABANCHEL|SAN ISIDRO": {
+      "name": "San Isidro",
+      "population": 42556
+    },
+    "CARABANCHEL|VISTA ALEGRE": {
+      "name": "Vista Alegre",
+      "population": 50465
+    },
+    "CENTRO|CORTES": {
+      "name": "Cortes",
+      "population": 10740
+    },
+    "CENTRO|EMBAJADORES": {
+      "name": "Embajadores",
+      "population": 48085
+    },
+    "CENTRO|JUSTICIA": {
+      "name": "Justicia",
+      "population": 18140
+    },
+    "CENTRO|PALACIO": {
+      "name": "Palacio",
+      "population": 23410
+    },
+    "CENTRO|SOL": {
+      "name": "Sol",
+      "population": 8099
+    },
+    "CENTRO|UNIVERSIDAD": {
+      "name": "Universidad",
+      "population": 33326
+    },
+    "CHAMARTIN|CASTILLA": {
+      "name": "Castilla",
+      "population": 17592
+    },
+    "CHAMARTIN|CIUDAD JARDIN": {
+      "name": "Ciudad Jardín",
+      "population": 18807
+    },
+    "CHAMARTIN|EL VISO": {
+      "name": "El Viso",
+      "population": 17366
+    },
+    "CHAMARTIN|HISPANOAMERICA": {
+      "name": "Hispanoamérica",
+      "population": 32016
+    },
+    "CHAMARTIN|NUEVA ESPANA": {
+      "name": "Nueva España",
+      "population": 25402
+    },
+    "CHAMARTIN|PROSPERIDAD": {
+      "name": "Prosperidad",
+      "population": 36910
+    },
+    "CHAMBERI|ALMAGRO": {
+      "name": "Almagro",
+      "population": 19404
+    },
+    "CHAMBERI|ARAPILES": {
+      "name": "Arapiles",
+      "population": 24883
+    },
+    "CHAMBERI|GAZTAMBIDE": {
+      "name": "Gaztambide",
+      "population": 23670
+    },
+    "CHAMBERI|RIOS ROSAS": {
+      "name": "Ríos Rosas",
+      "population": 28065
+    },
+    "CHAMBERI|TRAFALGAR": {
+      "name": "Trafalgar",
+      "population": 25114
+    },
+    "CHAMBERI|VALLEHERMOSO": {
+      "name": "Vallehermoso",
+      "population": 20386
+    },
+    "CIUDAD LINEAL|ATALAYA": {
+      "name": "Atalaya",
+      "population": 1690
+    },
+    "CIUDAD LINEAL|COLINA": {
+      "name": "Colina",
+      "population": 6812
+    },
+    "CIUDAD LINEAL|COSTILLARES": {
+      "name": "Costillares",
+      "population": 22376
+    },
+    "CIUDAD LINEAL|LA CONCEPCION": {
+      "name": "La Concepción",
+      "population": 22387
+    },
+    "CIUDAD LINEAL|PUEBLO NUEVO": {
+      "name": "Pueblo Nuevo",
+      "population": 65545
+    },
+    "CIUDAD LINEAL|QUINTANA": {
+      "name": "Quintana",
+      "population": 26752
+    },
+    "CIUDAD LINEAL|SAN JUAN BAUTISTA": {
+      "name": "San Juan Bautista",
+      "population": 13235
+    },
+    "CIUDAD LINEAL|SAN PASCUAL": {
+      "name": "San Pascual",
+      "population": 19141
+    },
+    "CIUDAD LINEAL|VENTAS": {
+      "name": "Ventas",
+      "population": 52396
+    },
+    "FUENCARRAL-EL PARDO|EL GOLOSO": {
+      "name": "El Goloso",
+      "population": 19729
+    },
+    "FUENCARRAL-EL PARDO|EL PARDO": {
+      "name": "El Pardo",
+      "population": 3472
+    },
+    "FUENCARRAL-EL PARDO|FUENTELARREINA": {
+      "name": "Fuentelarreina",
+      "population": 3567
+    },
+    "FUENCARRAL-EL PARDO|LA PAZ": {
+      "name": "La Paz",
+      "population": 31835
+    },
+    "FUENCARRAL-EL PARDO|MIRASIERRA": {
+      "name": "Mirasierra",
+      "population": 37918
+    },
+    "FUENCARRAL-EL PARDO|PENAGRANDE": {
+      "name": "Peñagrande",
+      "population": 45120
+    },
+    "FUENCARRAL-EL PARDO|PILAR": {
+      "name": "Pilar",
+      "population": 46659
+    },
+    "FUENCARRAL-EL PARDO|VALVERDE": {
+      "name": "Valverde",
+      "population": 67737
+    },
+    "HORTALEZA|APOSTOL SANTIAGO": {
+      "name": "Apóstol Santiago",
+      "population": 15702
+    },
+    "HORTALEZA|CANILLAS": {
+      "name": "Canillas",
+      "population": 40494
+    },
+    "HORTALEZA|PALOMAS": {
+      "name": "Palomas",
+      "population": 7118
+    },
+    "HORTALEZA|PINAR DEL REY": {
+      "name": "Pinar del Rey",
+      "population": 53458
+    },
+    "HORTALEZA|PIOVERA": {
+      "name": "Piovera",
+      "population": 15368
+    },
+    "HORTALEZA|VALDEFUENTES": {
+      "name": "Valdefuentes",
+      "population": 77038
+    },
+    "LATINA|AGUILAS": {
+      "name": "Águilas",
+      "population": 52226
+    },
+    "LATINA|ALUCHE": {
+      "name": "Aluche",
+      "population": 68548
+    },
+    "LATINA|CAMPAMENTO": {
+      "name": "Campamento",
+      "population": 20742
+    },
+    "LATINA|CUATRO VIENTOS": {
+      "name": "Cuatro Vientos",
+      "population": 7057
+    },
+    "LATINA|LOS CARMENES": {
+      "name": "Los Cármenes",
+      "population": 18562
+    },
+    "LATINA|LUCERO": {
+      "name": "Lucero",
+      "population": 38150
+    },
+    "LATINA|PUERTA DEL ANGEL": {
+      "name": "Puerta del Ángel",
+      "population": 45854
+    },
+    "MONCLOA-ARAVACA|ARAVACA": {
+      "name": "Aravaca",
+      "population": 28183
+    },
+    "MONCLOA-ARAVACA|ARGUELLES": {
+      "name": "Argüelles",
+      "population": 24802
+    },
+    "MONCLOA-ARAVACA|CASA DE CAMPO": {
+      "name": "Casa de Campo",
+      "population": 13530
+    },
+    "MONCLOA-ARAVACA|CIUDAD UNIVERSITARIA": {
+      "name": "Ciudad Universitaria",
+      "population": 17077
+    },
+    "MONCLOA-ARAVACA|EL PLANTIO": {
+      "name": "El Plantío",
+      "population": 3161
+    },
+    "MONCLOA-ARAVACA|VALDEMARIN": {
+      "name": "Valdemarín",
+      "population": 7705
+    },
+    "MONCLOA-ARAVACA|VALDEZARZA": {
+      "name": "Valdezarza",
+      "population": 31799
+    },
+    "MORATALAZ|FONTARRON": {
+      "name": "Fontarrón",
+      "population": 17957
+    },
+    "MORATALAZ|HORCAJO": {
+      "name": "Horcajo",
+      "population": 6378
+    },
+    "MORATALAZ|MARROQUINA": {
+      "name": "Marroquina",
+      "population": 26140
+    },
+    "MORATALAZ|MEDIA LEGUA": {
+      "name": "Media Legua",
+      "population": 17616
+    },
+    "MORATALAZ|PAVONES": {
+      "name": "Pavones",
+      "population": 9111
+    },
+    "MORATALAZ|VINATEROS": {
+      "name": "Vinateros",
+      "population": 17203
+    },
+    "PUENTE DE VALLECAS|ENTREVIAS": {
+      "name": "Entrevías",
+      "population": 37773
+    },
+    "PUENTE DE VALLECAS|NUMANCIA": {
+      "name": "Numancia",
+      "population": 51578
+    },
+    "PUENTE DE VALLECAS|PALOMERAS BAJAS": {
+      "name": "Palomeras Bajas",
+      "population": 42052
+    },
+    "PUENTE DE VALLECAS|PALOMERAS SURESTE": {
+      "name": "Palomeras Sureste",
+      "population": 44822
+    },
+    "PUENTE DE VALLECAS|PORTAZGO": {
+      "name": "Portazgo",
+      "population": 30348
+    },
+    "PUENTE DE VALLECAS|SAN DIEGO": {
+      "name": "San Diego",
+      "population": 51351
+    },
+    "RETIRO|ADELFAS": {
+      "name": "Adelfas",
+      "population": 18892
+    },
+    "RETIRO|ESTRELLA": {
+      "name": "Estrella",
+      "population": 22692
+    },
+    "RETIRO|IBIZA": {
+      "name": "Ibiza",
+      "population": 21589
+    },
+    "RETIRO|LOS JERONIMOS": {
+      "name": "Los Jerónimos",
+      "population": 6774
+    },
+    "RETIRO|NINO JESUS": {
+      "name": "Niño Jesús",
+      "population": 15078
+    },
+    "RETIRO|PACIFICO": {
+      "name": "Pacífico",
+      "population": 33838
+    },
+    "SALAMANCA|CASTELLANA": {
+      "name": "Castellana",
+      "population": 16798
+    },
+    "SALAMANCA|FUENTE DEL BERRO": {
+      "name": "Fuente del Berro",
+      "population": 21462
+    },
+    "SALAMANCA|GOYA": {
+      "name": "Goya",
+      "population": 29627
+    },
+    "SALAMANCA|GUINDALERA": {
+      "name": "Guindalera",
+      "population": 43038
+    },
+    "SALAMANCA|LISTA": {
+      "name": "Lista",
+      "population": 21108
+    },
+    "SALAMANCA|RECOLETOS": {
+      "name": "Recoletos",
+      "population": 15223
+    },
+    "SAN BLAS-CANILLEJAS|AMPOSTA": {
+      "name": "Amposta",
+      "population": 10349
+    },
+    "SAN BLAS-CANILLEJAS|ARCOS": {
+      "name": "Arcos",
+      "population": 26309
+    },
+    "SAN BLAS-CANILLEJAS|CANILLEJAS": {
+      "name": "Canillejas",
+      "population": 30418
+    },
+    "SAN BLAS-CANILLEJAS|EL SALVADOR": {
+      "name": "El Salvador",
+      "population": 11580
+    },
+    "SAN BLAS-CANILLEJAS|HELLIN": {
+      "name": "Hellín",
+      "population": 10272
+    },
+    "SAN BLAS-CANILLEJAS|REJAS": {
+      "name": "Rejas",
+      "population": 18584
+    },
+    "SAN BLAS-CANILLEJAS|ROSAS": {
+      "name": "Rosas",
+      "population": 30400
+    },
+    "SAN BLAS-CANILLEJAS|SIMANCAS": {
+      "name": "Simancas",
+      "population": 30614
+    },
+    "TETUAN|ALMENARA": {
+      "name": "Almenara",
+      "population": 24271
+    },
+    "TETUAN|BELLAS VISTAS": {
+      "name": "Bellas Vistas",
+      "population": 30751
+    },
+    "TETUAN|BERRUGUETE": {
+      "name": "Berruguete",
+      "population": 27136
+    },
+    "TETUAN|CASTILLEJOS": {
+      "name": "Castillejos",
+      "population": 21189
+    },
+    "TETUAN|CUATRO CAMINOS": {
+      "name": "Cuatro Caminos",
+      "population": 35788
+    },
+    "TETUAN|VALDEACEDERAS": {
+      "name": "Valdeacederas",
+      "population": 28641
+    },
+    "USERA|ALMENDRALES": {
+      "name": "Almendrales",
+      "population": 24801
+    },
+    "USERA|MOSCARDO": {
+      "name": "Moscardó",
+      "population": 28874
+    },
+    "USERA|ORCASITAS": {
+      "name": "Orcasitas",
+      "population": 23677
+    },
+    "USERA|ORCASUR": {
+      "name": "Orcasur",
+      "population": 15036
+    },
+    "USERA|PRADOLONGO": {
+      "name": "Pradolongo",
+      "population": 20316
+    },
+    "USERA|SAN FERMIN": {
+      "name": "San Fermín",
+      "population": 24705
+    },
+    "USERA|ZOFIO": {
+      "name": "Zofío",
+      "population": 15528
+    },
+    "VICALVARO|CASCO HISTORICO DE VICALVARO": {
+      "name": "Casco Histórico de Vicálvaro",
+      "population": 37777
+    },
+    "VICALVARO|EL CANAVERAL": {
+      "name": "El Cañaveral",
+      "population": 24945
+    },
+    "VICALVARO|VALDEBERNARDO": {
+      "name": "Valdebernardo",
+      "population": 17260
+    },
+    "VICALVARO|VALDERRIVAS": {
+      "name": "Valderrivas",
+      "population": 17878
+    },
+    "VILLA DE VALLECAS|CASCO HISTORICO DE VALLECAS": {
+      "name": "Casco Histórico de Vallecas",
+      "population": 43518
+    },
+    "VILLA DE VALLECAS|ENSANCHE DE VALLECAS": {
+      "name": "Ensanche de Vallecas",
+      "population": 60129
+    },
+    "VILLA DE VALLECAS|SANTA EUGENIA": {
+      "name": "Santa Eugenia",
+      "population": 23919
+    },
+    "VILLAVERDE|ANGELES": {
+      "name": "Ángeles",
+      "population": 38259
+    },
+    "VILLAVERDE|BUTARQUE": {
+      "name": "Butarque",
+      "population": 23193
+    },
+    "VILLAVERDE|LOS ROSALES": {
+      "name": "Los Rosales",
+      "population": 39454
+    },
+    "VILLAVERDE|SAN CRISTOBAL": {
+      "name": "San Cristóbal",
+      "population": 19732
+    },
+    "VILLAVERDE|VILLAVERDE ALTO, CASCO HISTORICO DE VILLAVERDE": {
+      "name": "Villaverde Alto, Casco Histórico de Villaverde",
+      "population": 51913
+    }
+  }
+}
